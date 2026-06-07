@@ -1,0 +1,1169 @@
+﻿target,protocol,method,model,status,n_train,n_test,train_year_min,train_year_max,test_year_min,test_year_max,r2,r2_log1p,rmse,mae,mape,sample_weight_used,high_threshold
+A,literature_2019_2020,direct_global,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.034999463825876154,-0.0797047335409089,14.221300104427057,6.877524889621724,44.35586524631332,,
+A,literature_2019_2020,spatial_zone_features,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.06033568047301707,-0.09127369548218112,14.394312489828389,6.905219354660456,45.10632196225388,,
+A,literature_2019_2020,spatial_baseline_residual,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,literature_2019_2020,spatial_baseline_residual_zone,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,literature_2019_2020,temporal_weighted,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.022247955206300185,-0.030479282139544095,13.822404728680985,6.764447967665814,40.674480460032576,True,
+A,literature_2019_2020,two_stage_high_pollution,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.03878929672390641,0.01247264410361748,13.704984157774682,6.968154699921042,41.91314070585825,,18.218
+A,literature_2019_2020,direct_global,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.10314629743308423,0.07792336586951654,13.238233636193858,6.450882729420032,38.49828879751389,,
+A,literature_2019_2020,spatial_zone_features,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.09409132236522622,0.04443090941647576,13.304894912747699,6.629228946395968,40.07814983723218,,
+A,literature_2019_2020,spatial_baseline_residual,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,literature_2019_2020,spatial_baseline_residual_zone,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,literature_2019_2020,temporal_weighted,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.09122855505006455,0.07565071785083044,13.325900768804175,6.565805841562468,37.44564105278289,True,
+A,literature_2019_2020,two_stage_high_pollution,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.052267162869292116,0.04620920177706567,13.60856095692111,6.998449849403898,41.131696099239115,,18.218
+A,literature_2019_2020,direct_global,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.10187543921459907,-0.23112457855902502,14.673559930889901,7.606885884177512,47.23585335883372,,
+A,literature_2019_2020,spatial_zone_features,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.0946780085337422,-0.21518616519677036,14.625557699392035,7.628752798232873,47.321063661092104,,
+A,literature_2019_2020,spatial_baseline_residual,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,literature_2019_2020,spatial_baseline_residual_zone,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,literature_2019_2020,temporal_weighted,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.11014324444518264,-0.23396310024237676,14.72850779823138,7.72493160856953,46.9898738882848,True,
+A,literature_2019_2020,direct_global,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.08415205341600773,0.08751589063670817,13.37768380677891,6.555169920254858,43.99043514971868,,
+A,literature_2019_2020,spatial_zone_features,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.0756094101205117,0.07866758062994217,13.439929688442907,6.60191712565531,43.82163327047836,,
+A,literature_2019_2020,spatial_baseline_residual,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,literature_2019_2020,spatial_baseline_residual_zone,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,literature_2019_2020,temporal_weighted,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.11091935213556281,0.12044796403728475,13.18074073186914,6.43373347088005,42.00657972890441,True,
+A,literature_2019_2020,direct_global,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.09200212399473329,0.05803244188260015,13.320227891591903,6.820557946418608,46.91570679655512,,
+A,literature_2019_2020,spatial_zone_features,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.07880330806644109,0.06368199781998196,13.416691185633555,6.642472138627637,44.244931152834894,,
+A,literature_2019_2020,spatial_baseline_residual,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,literature_2019_2020,spatial_baseline_residual_zone,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,literature_2019_2020,temporal_weighted,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.09200212399473329,0.05803244188260015,13.320227891591903,6.820557946418608,46.91570679655512,False,
+A,literature_2019_2020,direct_global,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.09701411372229918,0.06275764338283873,13.283414354179737,6.617646914787292,38.94035039245595,,
+A,literature_2019_2020,spatial_zone_features,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.06393467017901366,0.015205659246189662,13.524534273868145,6.88086956626892,40.949285525599585,,
+A,literature_2019_2020,spatial_baseline_residual,XGBoost,"failed: [21:53:48] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+A,literature_2019_2020,spatial_baseline_residual_zone,XGBoost,"failed: [21:53:48] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+A,literature_2019_2020,temporal_weighted,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.056508949289559074,-0.020353056971392114,13.578072753103706,6.97139628440857,41.19352459321782,True,
+A,literature_2019_2020,direct_global,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.12794459433803818,-0.19913239978749298,14.846125326434004,7.4616679408754525,48.07617715314763,,
+A,literature_2019_2020,spatial_zone_features,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.1864666695335484,-0.2276372749433273,15.226392126220663,7.530047859818596,51.41874907647947,,
+A,literature_2019_2020,spatial_baseline_residual,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,literature_2019_2020,spatial_baseline_residual_zone,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,literature_2019_2020,temporal_weighted,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.2256196070035863,-0.2748836153039733,15.475585492920263,7.836842077538548,54.21728507057193,True,
+A,literature_2019_2020,two_stage_high_pollution,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.060563596263362385,-0.08877018480089416,14.39585941260644,7.480409217036904,43.69971755518238,,18.218
+A,literature_2019_2020,direct_global,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.10155687980429129,0.09870491087576638,13.249958941991332,6.44163401591885,38.14957952239842,,
+A,literature_2019_2020,spatial_zone_features,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.08080072377249126,0.09194135370843326,13.402137696403967,6.4933085736438185,38.19339037688929,,
+A,literature_2019_2020,spatial_baseline_residual,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+A,literature_2019_2020,spatial_baseline_residual_zone,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+A,literature_2019_2020,temporal_weighted,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.1027987645773677,0.11372895665640514,13.240798310630677,6.5045110217856,37.16112951808456,True,
+A,literature_2019_2020,two_stage_high_pollution,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.057668714498920304,0.08300266388524657,13.569724916295273,6.794411743276543,38.086417414226645,,18.218
+A,literature_2019_2020,direct_global,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.22983401229489853,-0.11172226905448257,15.502169768593012,7.02287090412478,52.583705292947656,,
+A,literature_2019_2020,spatial_zone_features,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.3002623836752414,-0.12412665842819326,15.939868642566823,7.08363617241894,55.10509906334279,,
+A,literature_2019_2020,spatial_baseline_residual,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,literature_2019_2020,spatial_baseline_residual_zone,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,literature_2019_2020,temporal_weighted,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.16622883189547744,-0.09011723391225845,15.095973535101805,6.946607563603967,50.70918604170296,False,
+B,literature_2019_2020,direct_global,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.04227259251506976,-0.23553527953835607,2.2192323628156183,1.0691151247703812,278.2194387281973,,
+B,literature_2019_2020,spatial_zone_features,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.039380699842228806,-0.23471041706420692,2.2161514798771047,1.0779707569199943,282.3302436709367,,
+B,literature_2019_2020,spatial_baseline_residual,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,literature_2019_2020,spatial_baseline_residual_zone,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,literature_2019_2020,temporal_weighted,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.03512940845308776,-0.22878745638384723,2.2116145669558436,1.06031035641586,267.2986663281803,True,
+B,literature_2019_2020,two_stage_high_pollution,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.038754940396455995,-0.31060003046944984,2.215484262123137,1.178230540533982,312.98275445201347,,1.2769999999999992
+B,literature_2019_2020,direct_global,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.024931816803672513,-0.21185058317104022,2.2006937279748575,1.0942050016324476,274.2641182478033,,
+B,literature_2019_2020,spatial_zone_features,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.036614539018887005,-0.23086797632433265,2.2132005324909283,1.0898118459919262,273.83223858765797,,
+B,literature_2019_2020,spatial_baseline_residual,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,literature_2019_2020,spatial_baseline_residual_zone,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,literature_2019_2020,temporal_weighted,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.018259695667235176,-0.1796832094601677,2.193518972837519,1.0767610655845643,262.59339205994223,True,
+B,literature_2019_2020,two_stage_high_pollution,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.003123787193044514,-0.24498760300497735,2.1771551676417955,1.1486051343091517,295.83489291034044,,1.2769999999999992
+B,literature_2019_2020,direct_global,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.05408045560047814,-0.3669433501643504,2.2317677553859414,1.1501560703455063,314.28236960708654,,
+B,literature_2019_2020,spatial_zone_features,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.042409248585222326,-0.3071362335809791,2.2193778437749825,1.1109009775829164,279.4492433399464,,
+B,literature_2019_2020,spatial_baseline_residual,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,literature_2019_2020,spatial_baseline_residual_zone,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,literature_2019_2020,temporal_weighted,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.15392757408200453,-0.46853010505654535,2.335078009028287,1.2019622824973646,317.1437496662819,True,
+B,literature_2019_2020,direct_global,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.03515651178318613,0.009037405979723245,2.1352097958237435,0.9708970692421558,224.26329583917143,,
+B,literature_2019_2020,spatial_zone_features,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.010407060628729092,-0.02740911605042129,2.1624218059725844,0.9633218062858355,207.8452595032041,,
+B,literature_2019_2020,spatial_baseline_residual,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,literature_2019_2020,spatial_baseline_residual_zone,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,literature_2019_2020,temporal_weighted,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.035379249071212926,-0.01122190818205393,2.1349633215011234,0.9808221615176933,238.91518411221878,True,
+B,literature_2019_2020,direct_global,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.041590321982617584,-0.003359037476672988,2.1280788400220074,0.983772852249528,235.23471194332836,,
+B,literature_2019_2020,spatial_zone_features,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.0057473439798994,-0.04570226909165065,2.1675069469162973,0.9779349048421689,219.37861302576715,,
+B,literature_2019_2020,spatial_baseline_residual,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,literature_2019_2020,spatial_baseline_residual_zone,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,literature_2019_2020,temporal_weighted,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.041590321982617584,-0.003359037476672988,2.1280788400220074,0.983772852249528,235.23471194332836,False,
+B,literature_2019_2020,direct_global,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.012239727861549143,-0.16708348233157055,2.1870253010974525,1.046918763998747,247.19449750488937,,
+B,literature_2019_2020,spatial_zone_features,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.038006459279702254,-0.19835975455636712,2.214685928034412,1.0702596323764324,257.46561090714727,,
+B,literature_2019_2020,spatial_baseline_residual,XGBoost,"failed: [21:54:07] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+B,literature_2019_2020,spatial_baseline_residual_zone,XGBoost,"failed: [21:54:07] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+B,literature_2019_2020,temporal_weighted,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.00530500163958858,-0.1465559433042276,2.1679890544939306,1.0499300991141798,224.72382791066883,True,
+B,literature_2019_2020,direct_global,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.1706219759780474,-0.4143415195267408,2.3519086780944827,1.1811643338184254,294.87328200719713,,
+B,literature_2019_2020,spatial_zone_features,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.14753574957047322,-0.35453650065265196,2.328601807530372,1.156618034267832,302.3688249730431,,
+B,literature_2019_2020,spatial_baseline_residual,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,literature_2019_2020,spatial_baseline_residual_zone,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,literature_2019_2020,temporal_weighted,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.13095580716548305,-0.3375606917700873,2.311718431211876,1.1163668952331482,270.4592988489975,True,
+B,literature_2019_2020,two_stage_high_pollution,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.11632631006393312,-0.3822073198699403,2.2967181286086245,1.2238513333650518,293.89452975709247,,1.2769999999999992
+B,literature_2019_2020,direct_global,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.008222545625557687,-0.0863232770957778,2.1648072508392433,0.9837149940397871,216.44721851324073,,
+B,literature_2019_2020,spatial_zone_features,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.05095540534106491,-0.025000309088912598,2.117656073517537,0.9742536452823742,207.72492844947462,,
+B,literature_2019_2020,spatial_baseline_residual,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+B,literature_2019_2020,spatial_baseline_residual_zone,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+B,literature_2019_2020,temporal_weighted,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.024444339656498948,-0.03893734217694078,2.14703015789277,0.9713211587861933,212.9808636192573,True,
+B,literature_2019_2020,two_stage_high_pollution,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.06119436530090705,-0.14113147090906208,2.1062017144430913,1.0963309242751835,279.8003769636258,,1.2769999999999992
+B,literature_2019_2020,direct_global,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.9805036542820891,-0.41265307821410224,3.0591441523423013,1.211256682948776,328.2579684019222,,
+B,literature_2019_2020,spatial_zone_features,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.7400482560743666,-0.3693813589880599,2.867429602448906,1.1633841088108112,310.4227416896144,,
+B,literature_2019_2020,spatial_baseline_residual,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,literature_2019_2020,spatial_baseline_residual_zone,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,literature_2019_2020,temporal_weighted,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.7054550241769584,-0.3959312799503576,2.838783377551763,1.1854122908495375,315.53134263155005,False,
+C,literature_2019_2020,direct_global,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.044175359529460057,-0.029682922942079415,51.230573113960595,24.94512648530722,37.70582700126879,,
+C,literature_2019_2020,spatial_zone_features,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.027183804854075788,-0.08389087278396246,51.68392638910458,25.51619061273329,38.34149501276622,,
+C,literature_2019_2020,spatial_baseline_residual,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,literature_2019_2020,spatial_baseline_residual_zone,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,literature_2019_2020,temporal_weighted,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.060520567040154405,0.06543166097807307,50.79064660370073,24.38987192669924,36.56393625584065,True,
+C,literature_2019_2020,two_stage_high_pollution,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.05735535358178412,0.08250061665332686,50.876134402981336,23.61153576226409,35.552158482879676,,77.6
+C,literature_2019_2020,direct_global,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.059994045007195185,0.11539005705835159,50.80487716997947,24.027428709742395,35.815737140575905,,
+C,literature_2019_2020,spatial_zone_features,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.04430269970966694,0.08514334929120138,51.227160391881796,23.910080097770344,35.303528987744286,,
+C,literature_2019_2020,spatial_baseline_residual,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,literature_2019_2020,spatial_baseline_residual_zone,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,literature_2019_2020,temporal_weighted,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.07326578694356489,0.10787625975594872,50.44495065478577,24.507904316666444,36.90083798120203,True,
+C,literature_2019_2020,two_stage_high_pollution,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.07433811529332068,0.1441653175219192,50.41575716707398,22.770143073110088,34.24082092001488,,77.6
+C,literature_2019_2020,direct_global,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.15222463233936356,0.08140128433026761,48.248131619567715,24.624840304251105,38.768125637723976,,
+C,literature_2019_2020,spatial_zone_features,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.11661672764535069,0.06423908929712685,49.25095871954634,24.773383785194493,38.79402980510899,,
+C,literature_2019_2020,spatial_baseline_residual,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,literature_2019_2020,spatial_baseline_residual_zone,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,literature_2019_2020,temporal_weighted,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.1231229125950436,0.014140716686005916,49.06925500848489,24.83510525134693,39.40581694392935,True,
+C,literature_2019_2020,direct_global,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.031832458166112465,-0.00506788973292549,53.228557378218795,24.387682424754598,34.67068218888994,,
+C,literature_2019_2020,spatial_zone_features,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.027725609413909336,-0.009340899668079494,53.122522922944974,24.63509909445648,35.37839356913609,,
+C,literature_2019_2020,spatial_baseline_residual,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,literature_2019_2020,spatial_baseline_residual_zone,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,literature_2019_2020,temporal_weighted,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.007660366375348282,0.009637252090913151,52.601386512808055,24.19165179539747,36.32887351288225,True,
+C,literature_2019_2020,direct_global,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.03130697770399138,-0.02348079341928866,53.2150018204576,24.635263683790576,35.70989963903043,,
+C,literature_2019_2020,spatial_zone_features,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.025527853363558783,-0.03277087906294618,53.065692175235576,25.15758056743458,36.710255239360684,,
+C,literature_2019_2020,spatial_baseline_residual,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,literature_2019_2020,spatial_baseline_residual_zone,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,literature_2019_2020,temporal_weighted,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.03130697770399138,-0.02348079341928866,53.2150018204576,24.635263683790576,35.70989963903043,False,
+C,literature_2019_2020,direct_global,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.06110163901274113,0.06047484752958909,50.77493706016572,24.15613621795654,37.554864388274495,,
+C,literature_2019_2020,spatial_zone_features,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.06557837336979155,0.04032529545889629,50.6537431614141,24.247411596221927,37.64622430257942,,
+C,literature_2019_2020,spatial_baseline_residual,XGBoost,"failed: [21:54:26] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+C,literature_2019_2020,spatial_baseline_residual_zone,XGBoost,"failed: [21:54:26] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+C,literature_2019_2020,temporal_weighted,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.09627663741251224,0.12047354733640359,49.814738868089876,23.530290315551756,36.52572928302424,True,
+C,literature_2019_2020,direct_global,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.1280001103136349,0.028636013704088747,48.93260292445716,24.543060972864545,37.930803674887436,,
+C,literature_2019_2020,spatial_zone_features,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.10023512891390307,0.026472283183904377,49.705519809901865,24.59391941130999,37.796354081554234,,
+C,literature_2019_2020,spatial_baseline_residual,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,literature_2019_2020,spatial_baseline_residual_zone,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,literature_2019_2020,temporal_weighted,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.057641772918329504,0.024535898100538467,50.868404546459395,25.146134364736678,38.341190851254034,True,
+C,literature_2019_2020,two_stage_high_pollution,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.07446447441031123,0.0689673713228739,50.41231600346882,24.25517053918994,38.97125534471201,,77.6
+C,literature_2019_2020,direct_global,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.07177780319798854,0.12518821321322504,50.48543214329939,23.478405028061058,36.10767819190217,,
+C,literature_2019_2020,spatial_zone_features,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.05327176732715877,0.08843920944642392,50.98621436063919,23.710615882590364,36.315219511688895,,
+C,literature_2019_2020,spatial_baseline_residual,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+C,literature_2019_2020,spatial_baseline_residual_zone,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+C,literature_2019_2020,temporal_weighted,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.09031852252443495,0.14490181578459949,49.978679716961985,23.228546397802294,35.914923934845525,True,
+C,literature_2019_2020,two_stage_high_pollution,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.07529270534701893,0.13081591141866145,50.38975480317795,23.0248950102596,35.205021455823086,,77.6
+C,literature_2019_2020,direct_global,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.020933288548638962,-0.029025158328732203,51.849699723934194,25.1513246977338,38.18222540860558,,
+C,literature_2019_2020,spatial_zone_features,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.023368116966974273,-0.056975456409421366,51.78518741441306,24.765930249008715,37.187404422771735,,
+C,literature_2019_2020,spatial_baseline_residual,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,literature_2019_2020,spatial_baseline_residual_zone,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,literature_2019_2020,temporal_weighted,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.024624806913345787,-0.010022027741051431,51.75185915946453,24.93367668915466,37.75956448548895,False,
+D,literature_2019_2020,direct_global,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.09878596597912426,-0.19255236674868748,54.64733804444772,23.644259027661636,58.80919692223232,,
+D,literature_2019_2020,spatial_zone_features,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.11205982118252744,-0.19223387363572386,54.243398643475686,23.70915232272279,58.6958091190937,,
+D,literature_2019_2020,spatial_baseline_residual,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,literature_2019_2020,spatial_baseline_residual_zone,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,literature_2019_2020,temporal_weighted,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.14084789197315262,-0.15053882092611115,53.35683601437657,23.21607251183026,56.12088087318732,True,
+D,literature_2019_2020,two_stage_high_pollution,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.1050972446037346,-0.15083499717569104,54.455651875228675,23.47482314625315,59.70594125056113,,45.68
+D,literature_2019_2020,direct_global,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.15515673120614115,-0.1166294119394442,52.9106519379715,23.191682870780742,57.75969810161673,,
+D,literature_2019_2020,spatial_zone_features,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.200474207029959,-0.10122227042343845,51.472027786143585,23.01158282449183,58.572430561727174,,
+D,literature_2019_2020,spatial_baseline_residual,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,literature_2019_2020,spatial_baseline_residual_zone,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,literature_2019_2020,temporal_weighted,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.19045460115153345,-0.08224738859392855,51.79354568490199,22.937704517115158,57.171023386495165,True,
+D,literature_2019_2020,two_stage_high_pollution,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.12139942354991762,-0.04832383079893865,53.95737093015198,22.661091108839223,56.02982778128486,,45.68
+D,literature_2019_2020,direct_global,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.20247832892432693,-0.1861430924924099,51.40747643350627,24.537831165332115,63.37593714349271,,
+D,literature_2019_2020,spatial_zone_features,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.20676323698550236,-0.18813025703792818,51.26918992061542,24.573522904397247,64.08058769163556,,
+D,literature_2019_2020,spatial_baseline_residual,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,literature_2019_2020,spatial_baseline_residual_zone,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,literature_2019_2020,temporal_weighted,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.1816852489771007,-0.13368862073539112,52.07331532353988,23.380330170954604,58.817240496619405,True,
+D,literature_2019_2020,direct_global,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.05428298079021587,-0.11153092911692553,55.98035406409817,23.174560921238125,61.55096499411103,,
+D,literature_2019_2020,spatial_zone_features,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.007506139376650456,-0.16778684445005787,57.780179838341205,23.953775656005067,63.91523126221445,,
+D,literature_2019_2020,spatial_baseline_residual,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,literature_2019_2020,spatial_baseline_residual_zone,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,literature_2019_2020,temporal_weighted,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.07243763563377814,-0.11994089164815591,55.44043102524334,23.412318687174285,61.556469854681126,True,
+D,literature_2019_2020,direct_global,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.005793352709495325,-0.14457523241294634,57.39755195887752,23.676085449983553,64.9806007802358,,
+D,literature_2019_2020,spatial_zone_features,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.08494708545011287,-0.21222219755960503,59.9596815134173,24.642883237804373,68.50132718223107,,
+D,literature_2019_2020,spatial_baseline_residual,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,literature_2019_2020,spatial_baseline_residual_zone,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,literature_2019_2020,temporal_weighted,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.005793352709495325,-0.14457523241294634,57.39755195887752,23.676085449983553,64.9806007802358,False,
+D,literature_2019_2020,direct_global,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.07821479793041808,-0.21757578459987115,55.267510769674885,24.297779994506833,63.606809403301824,,
+D,literature_2019_2020,spatial_zone_features,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.030114560224887787,-0.2600675500646443,56.69114889258999,24.92870485183716,64.71283483219099,,
+D,literature_2019_2020,spatial_baseline_residual,XGBoost,"failed: [21:54:45] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+D,literature_2019_2020,spatial_baseline_residual_zone,XGBoost,"failed: [21:54:45] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+D,literature_2019_2020,temporal_weighted,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.09388139456612177,-0.19489874488017445,54.795836677903964,23.848318239135736,60.44815417097179,True,
+D,literature_2019_2020,direct_global,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.12280636436176184,-0.24395827132427073,53.91415149399818,24.855357860685814,64.00538806171181,,
+D,literature_2019_2020,spatial_zone_features,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.09658619758338205,-0.27597135928153826,54.71399158961403,25.23368745035451,64.23611574190377,,
+D,literature_2019_2020,spatial_baseline_residual,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,literature_2019_2020,spatial_baseline_residual_zone,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,literature_2019_2020,temporal_weighted,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.13707697429144772,-0.19503514180593862,53.47380246334564,24.075047390666196,59.11872358811142,True,
+D,literature_2019_2020,two_stage_high_pollution,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.005679518832649499,-0.24574628702497336,57.400837794304394,24.35926704897188,65.90183849365759,,45.68
+D,literature_2019_2020,direct_global,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.0738254296187677,-0.08289156911242634,55.39894125589643,22.841340677348004,52.6719484621054,,
+D,literature_2019_2020,spatial_zone_features,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.0957430265969822,-0.07503856460934588,54.739518369769904,22.768039597637753,52.648932846366726,,
+D,literature_2019_2020,spatial_baseline_residual,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+D,literature_2019_2020,spatial_baseline_residual_zone,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+D,literature_2019_2020,temporal_weighted,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.08500654579727152,-0.0718051308828549,55.063527792572465,22.566266815662352,51.864180310943134,True,
+D,literature_2019_2020,two_stage_high_pollution,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.03358398212934599,-0.16071429777733526,56.589661792057086,23.38592579322514,57.93163586480787,,45.68
+D,literature_2019_2020,direct_global,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.04033228955728019,-0.17036419956593396,56.39173800813483,23.87236703576204,56.49549547594738,,
+D,literature_2019_2020,spatial_zone_features,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.03939976879261353,-0.16232191484552239,56.41912962377014,23.582313255990645,55.87166789585578,,
+D,literature_2019_2020,spatial_baseline_residual,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,literature_2019_2020,spatial_baseline_residual_zone,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,literature_2019_2020,temporal_weighted,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.039703776335859975,-0.16729525073303542,56.41020124873658,23.863170978533603,56.636742130904885,False,
+E,literature_2019_2020,direct_global,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.10715794970182668,0.08881441047555116,10.608521282616511,7.413776815852195,27.399186387422635,,
+E,literature_2019_2020,spatial_zone_features,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.06253896265815506,0.052914746031478055,10.870365510918878,7.582354474004563,28.082751543639382,,
+E,literature_2019_2020,spatial_baseline_residual,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,literature_2019_2020,spatial_baseline_residual_zone,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,literature_2019_2020,temporal_weighted,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.02773156444831615,0.04005313321378656,11.070331533737706,7.6574536068157455,27.88396427219315,True,
+E,literature_2019_2020,two_stage_high_pollution,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.09947583625491996,0.09218409479133771,10.65406198838471,7.526735290193399,27.78602983336736,,36.9
+E,literature_2019_2020,direct_global,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.0997483105801199,0.0941433293318773,10.652450050532147,7.674634954289139,27.826116151501683,,
+E,literature_2019_2020,spatial_zone_features,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.07768958130022285,0.0847777583370557,10.782167921220827,7.64666577187376,27.621259412662642,,
+E,literature_2019_2020,spatial_baseline_residual,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,literature_2019_2020,spatial_baseline_residual_zone,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,literature_2019_2020,temporal_weighted,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.09170777625049831,0.0939378687026281,10.699915105757158,7.696554162655126,27.914710020343232,True,
+E,literature_2019_2020,two_stage_high_pollution,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.036821759856190406,0.04222191208346715,11.01845913308502,8.003858872474614,29.181974948677496,,36.9
+E,literature_2019_2020,direct_global,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.21523100973837495,-0.13700620860601065,12.37647461802446,8.784423870138138,31.817435160973222,,
+E,literature_2019_2020,spatial_zone_features,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.2127764660568292,-0.13816661970916577,12.363969196158298,8.806351036713021,31.876527421897443,,
+E,literature_2019_2020,spatial_baseline_residual,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,literature_2019_2020,spatial_baseline_residual_zone,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,literature_2019_2020,temporal_weighted,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.16788231034784595,-0.04396334223315068,12.132968612732705,8.548263720670404,30.85287041762122,True,
+E,literature_2019_2020,direct_global,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.06747599826488837,0.040030901173813915,10.841703932218614,7.3460531955683335,28.2290677280574,,
+E,literature_2019_2020,spatial_zone_features,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.05154519884860653,0.022455749242070056,10.933919033808229,7.451240732018043,28.64363430232396,,
+E,literature_2019_2020,spatial_baseline_residual,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,literature_2019_2020,spatial_baseline_residual_zone,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,literature_2019_2020,temporal_weighted,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.0523322954404013,0.015555196326564658,10.929381212597093,7.509080183132515,29.03769424850866,True,
+E,literature_2019_2020,direct_global,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.0617834133352132,0.021954785644892394,10.874745129270579,7.5090293825682615,29.088397809812093,,
+E,literature_2019_2020,spatial_zone_features,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.008236732818750592,-0.023181892829533313,11.18076561606428,7.720615629981614,29.64646766599647,,
+E,literature_2019_2020,spatial_baseline_residual,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,literature_2019_2020,spatial_baseline_residual_zone,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,literature_2019_2020,temporal_weighted,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.0617834133352132,0.021954785644892394,10.874745129270579,7.5090293825682615,29.088397809812093,False,
+E,literature_2019_2020,direct_global,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.020217551754998953,0.011028129968501998,11.340022842261908,7.8243205581665025,28.668327771599948,,
+E,literature_2019_2020,spatial_zone_features,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.05801069832314498,0.009526212119523203,11.548153914182832,7.79952765045166,28.75040188619033,,
+E,literature_2019_2020,spatial_baseline_residual,XGBoost,"failed: [21:55:05] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+E,literature_2019_2020,spatial_baseline_residual_zone,XGBoost,"failed: [21:55:05] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+E,literature_2019_2020,temporal_weighted,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.00043434334204550673,0.014023480470879313,11.224660054178651,8.015246835327147,29.563944255259184,True,
+E,literature_2019_2020,direct_global,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.27877192315169674,-0.1500502229593239,12.695917162156535,8.80238309172016,31.31169631544573,,
+E,literature_2019_2020,spatial_zone_features,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.28083006263651655,-0.1351025326837414,12.706129875841134,8.753469088866103,30.889271215834306,,
+E,literature_2019_2020,spatial_baseline_residual,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,literature_2019_2020,spatial_baseline_residual_zone,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,literature_2019_2020,temporal_weighted,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.2566345588198522,-0.15741209554043034,12.585545193408686,8.970938616599419,32.119322894501195,True,
+E,literature_2019_2020,two_stage_high_pollution,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.010637159099543547,0.03481310045967312,11.16722666781884,8.337314479759705,30.373024292966043,,36.9
+E,literature_2019_2020,direct_global,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.06350730860710585,0.06803223287968507,10.864749814021684,7.360253835167865,27.1893258822826,,
+E,literature_2019_2020,spatial_zone_features,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.08149764794040548,0.07176440339984236,10.759886006950898,7.392788230741765,27.394170289275532,,
+E,literature_2019_2020,spatial_baseline_residual,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+E,literature_2019_2020,spatial_baseline_residual_zone,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+E,literature_2019_2020,temporal_weighted,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.0719961084266697,0.08011760148862457,10.815396177553245,7.556391651989649,27.666392896915504,True,
+E,literature_2019_2020,two_stage_high_pollution,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.06724655382250255,0.07797676448451929,10.843037632859522,7.608078550956501,27.602100788861073,,36.9
+E,literature_2019_2020,direct_global,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.4445576453854321,-0.21134944406055656,13.493821861152487,9.086017970079364,33.15199299941975,,
+E,literature_2019_2020,spatial_zone_features,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.2400833250501877,-0.13986175601399164,12.502387859223386,8.637631053788875,31.68871936184407,,
+E,literature_2019_2020,spatial_baseline_residual,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,literature_2019_2020,spatial_baseline_residual_zone,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,literature_2019_2020,temporal_weighted,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.37077909144238275,-0.19207262154426963,13.144717887329048,9.044053726927013,32.9508870888139,False,
+F,literature_2019_2020,direct_global,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.01860652489333725,0.18959601657023584,85.02347337881916,41.281528126725505,67.6825679344457,,
+F,literature_2019_2020,spatial_zone_features,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.020995395692404495,0.18553383046713545,84.91992987189319,41.358238235178625,69.12723924639594,,
+F,literature_2019_2020,spatial_baseline_residual,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,literature_2019_2020,spatial_baseline_residual_zone,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,literature_2019_2020,temporal_weighted,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.009129393378817907,0.15785343982107358,86.21655942375783,42.77328908768323,71.20501073245988,True,
+F,literature_2019_2020,two_stage_high_pollution,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.005487108744139935,0.12884655576595316,85.58988999223462,43.26035541509688,83.59506528540345,,97.1
+F,literature_2019_2020,direct_global,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.03132521413356559,0.15189567685771233,84.47073194539003,41.84670388735571,72.6167152247426,,
+F,literature_2019_2020,spatial_zone_features,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.04453836287191004,0.19632050678936164,83.89264492907044,41.727073947870565,70.77061771137296,,
+F,literature_2019_2020,spatial_baseline_residual,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,literature_2019_2020,spatial_baseline_residual_zone,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,literature_2019_2020,temporal_weighted,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.02295213119283146,0.15021528731842204,84.83502273627015,42.29360394018837,73.36245100533814,True,
+F,literature_2019_2020,two_stage_high_pollution,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.03370992891359681,0.09034198494164813,84.36669148942819,43.645105945990906,87.77266278867359,,97.1
+F,literature_2019_2020,direct_global,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.03510087864465716,0.05128705570788117,87.31896881478953,45.275933564272556,79.66180191461261,,
+F,literature_2019_2020,spatial_zone_features,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.0139827900813414,0.06924568131650521,86.42363953150465,44.479040515819804,76.32139809399676,,
+F,literature_2019_2020,spatial_baseline_residual,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,literature_2019_2020,spatial_baseline_residual_zone,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,literature_2019_2020,temporal_weighted,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.021620387927945295,0.08957271301871261,84.89281928942843,43.62256105432806,75.77838442181542,True,
+F,literature_2019_2020,direct_global,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.44779231184418156,0.2414643755983169,103.2691001450412,46.33708930419903,65.1216410007394,,
+F,literature_2019_2020,spatial_zone_features,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.32504278566964917,0.23801241617399493,98.79437329833276,44.682011658200906,63.4700924739397,,
+F,literature_2019_2020,spatial_baseline_residual,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,literature_2019_2020,spatial_baseline_residual_zone,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,literature_2019_2020,temporal_weighted,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.3194115260171524,0.23747510830344554,98.58421815338656,44.84989539586063,66.16217294011858,True,
+F,literature_2019_2020,direct_global,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.5832903262850462,0.24100773733562741,107.9934806605265,46.561937927371055,64.62778057038149,,
+F,literature_2019_2020,spatial_zone_features,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.4496593369130295,0.23371860753386187,103.33566489960538,44.83184291745306,64.13682579122488,,
+F,literature_2019_2020,spatial_baseline_residual,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,literature_2019_2020,spatial_baseline_residual_zone,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,literature_2019_2020,temporal_weighted,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.5832903262850462,0.24100773733562741,107.9934806605265,46.561937927371055,64.62778057038149,False,
+F,literature_2019_2020,direct_global,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.1028483466874236,0.2665694592506146,81.29244588787594,37.55217211608886,58.88879427387661,,
+F,literature_2019_2020,spatial_zone_features,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.06312909389529198,0.22317155440291425,83.0724723603512,38.66138789443969,59.42195055095557,,
+F,literature_2019_2020,spatial_baseline_residual,XGBoost,"failed: [21:55:23] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+F,literature_2019_2020,spatial_baseline_residual_zone,XGBoost,"failed: [21:55:23] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+F,literature_2019_2020,temporal_weighted,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.09318326332657201,0.23335321547378995,81.72915772394578,39.02847107849121,60.47815543768491,True,
+F,literature_2019_2020,direct_global,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.04157519423887801,0.11879474740624496,84.0226321553462,42.426289222017324,74.59363325503112,,
+F,literature_2019_2020,spatial_zone_features,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.06456171553146461,0.13466418125835344,83.00893268158106,41.12308799194469,72.04035591008913,,
+F,literature_2019_2020,spatial_baseline_residual,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,literature_2019_2020,spatial_baseline_residual_zone,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,literature_2019_2020,temporal_weighted,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.06853766574101905,0.17341422157965014,82.83233587521288,40.16224840232904,67.73810556045461,True,
+F,literature_2019_2020,two_stage_high_pollution,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.07534655227010478,0.14245297914772814,82.52903297901987,41.71195373908327,81.65515054933891,,97.1
+F,literature_2019_2020,direct_global,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.0997186045215932,0.24504733818572066,81.43411808399321,38.10900176225371,61.1117483270825,,
+F,literature_2019_2020,spatial_zone_features,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.09894608952294826,0.26467121881377687,81.46904915579027,38.40490234097602,60.37854849983037,,
+F,literature_2019_2020,spatial_baseline_residual,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+F,literature_2019_2020,spatial_baseline_residual_zone,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+F,literature_2019_2020,temporal_weighted,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.07716909862910015,0.21299025585043752,82.4476580702443,39.09699061679556,64.15739867830332,True,
+F,literature_2019_2020,two_stage_high_pollution,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.03863036406522036,0.12542811156619804,84.15161598844065,42.25398610694969,82.37182383912672,,97.1
+F,literature_2019_2020,direct_global,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.09529161924901353,0.2583590564292326,81.63409197290207,38.83837046121982,63.10108736213122,,
+F,literature_2019_2020,spatial_zone_features,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.04331029181178614,0.22974753537907733,83.94654193620427,39.52914985218499,63.16777555865871,,
+F,literature_2019_2020,spatial_baseline_residual,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,literature_2019_2020,spatial_baseline_residual_zone,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,literature_2019_2020,temporal_weighted,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.08187506970263048,0.2519736944047746,82.23716869192096,39.261151499382585,63.48384391696658,False,
+G,literature_2019_2020,direct_global,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.10702223678013123,-0.312716687185407,131.09790684902714,57.46367507515927,48.49037736934822,,
+G,literature_2019_2020,spatial_zone_features,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.10155683618092981,-0.29995346695693237,130.7738893663362,57.4760625694951,48.36896327784231,,
+G,literature_2019_2020,spatial_baseline_residual,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,literature_2019_2020,spatial_baseline_residual_zone,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,literature_2019_2020,temporal_weighted,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.08149154668606617,-0.2839005004989563,129.57736671861818,56.199332013562596,47.421983285084345,True,
+G,literature_2019_2020,two_stage_high_pollution,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.1952774070232004,-0.29654558759432503,136.22347057506263,60.32990077478669,52.20985248374465,,125.157
+G,literature_2019_2020,direct_global,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.028663783046465108,-0.11797079854501491,126.37300427230653,50.6551048841011,40.69671346025387,,
+G,literature_2019_2020,spatial_zone_features,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.0373269309998967,-0.15850986163069813,126.90402942318626,52.70235310429669,43.53243414698134,,
+G,literature_2019_2020,spatial_baseline_residual,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,literature_2019_2020,spatial_baseline_residual_zone,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,literature_2019_2020,temporal_weighted,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.02762489502765697,-0.08622297770264198,126.30917361790304,50.139737825671794,38.79504016789546,True,
+G,literature_2019_2020,two_stage_high_pollution,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.09128415152146974,-0.24082240306625358,130.16268821235644,56.88927211052484,49.66453599193763,,125.157
+G,literature_2019_2020,direct_global,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.24068917383456645,-0.4957323144953709,138.7870937710722,65.68407469422125,58.77943396472607,,
+G,literature_2019_2020,spatial_zone_features,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.2577048495375558,-0.4951296822223954,139.73556429653058,65.73959295910889,59.018817063383366,,
+G,literature_2019_2020,spatial_baseline_residual,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,literature_2019_2020,spatial_baseline_residual_zone,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,literature_2019_2020,temporal_weighted,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.2796590490941797,-0.4788618523616772,140.94988354999097,66.51963744202867,59.75481366149158,True,
+G,literature_2019_2020,direct_global,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.03128166591232162,-0.008874109485266235,126.5337076577971,46.55217943484688,33.55552318061555,,
+G,literature_2019_2020,spatial_zone_features,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.05381113056553377,-0.0815334944676418,127.90837338105172,47.53322088718401,35.031974204643866,,
+G,literature_2019_2020,spatial_baseline_residual,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,literature_2019_2020,spatial_baseline_residual_zone,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,literature_2019_2020,temporal_weighted,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.011795455083160045,0.029264670503400314,125.33257066452816,46.179842528428836,33.55795550704493,True,
+G,literature_2019_2020,direct_global,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.024756031489833186,-0.009909366906044603,126.13273908200094,46.82568951567885,34.3764781197083,,
+G,literature_2019_2020,spatial_zone_features,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.06133706653865989,-0.11395747987333849,128.36429836690047,48.51206691231238,36.50716844579287,,
+G,literature_2019_2020,spatial_baseline_residual,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,literature_2019_2020,spatial_baseline_residual_zone,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,literature_2019_2020,temporal_weighted,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.024756031489833186,-0.009909366906044603,126.13273908200094,46.82568951567885,34.3764781197083,False,
+G,literature_2019_2020,direct_global,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.09847072429930415,-0.23730345955680754,130.59057339674297,56.50438309112548,45.9820548899817,,
+G,literature_2019_2020,spatial_zone_features,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.10725019190052665,-0.2831425168674706,131.11140382310478,56.7215414086914,46.497577777564146,,
+G,literature_2019_2020,spatial_baseline_residual,XGBoost,"failed: [21:55:42] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+G,literature_2019_2020,spatial_baseline_residual_zone,XGBoost,"failed: [21:55:42] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+G,literature_2019_2020,temporal_weighted,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.045152162389620276,-0.1950866734665988,127.38178989766234,54.98279977966308,45.65790498429876,True,
+G,literature_2019_2020,direct_global,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.17593524618307166,-0.47129319206714104,135.1167806961307,63.74030500186788,55.267634413786226,,
+G,literature_2019_2020,spatial_zone_features,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.1954692643445617,-0.5433214099051908,136.23440294161298,63.99892332056827,55.637016812073234,,
+G,literature_2019_2020,spatial_baseline_residual,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,literature_2019_2020,spatial_baseline_residual_zone,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,literature_2019_2020,temporal_weighted,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.09561592642643313,-0.3889896326086857,130.42076813000298,60.861040901058686,51.52177285770686,True,
+G,literature_2019_2020,two_stage_high_pollution,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.1233945918561492,-0.38207438138059824,132.06378791099254,62.9603186223202,56.723313575134604,,125.157
+G,literature_2019_2020,direct_global,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.011846106672083856,-0.007651121824551188,125.33570776816286,49.236102846598115,37.02019725827784,,
+G,literature_2019_2020,spatial_zone_features,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.03218260098356507,-0.043425084422043625,126.58896596988053,49.939177253262,37.75042602002539,,
+G,literature_2019_2020,spatial_baseline_residual,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+G,literature_2019_2020,spatial_baseline_residual_zone,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+G,literature_2019_2020,temporal_weighted,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.024277750319498748,0.025393327084562767,123.07807344282642,49.097739460048224,37.74443022077358,True,
+G,literature_2019_2020,two_stage_high_pollution,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.029070843653442813,-0.1855461563571419,126.39800582509865,55.92579399120896,48.30482312916221,,125.157
+G,literature_2019_2020,direct_global,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.25068309880250883,-0.45365498046928887,139.3449473610273,59.98963216536266,50.93482726983593,,
+G,literature_2019_2020,spatial_zone_features,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.23534065987218344,-0.4991883886948467,138.4876205194616,60.62749157287149,52.194679050700834,,
+G,literature_2019_2020,spatial_baseline_residual,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,literature_2019_2020,spatial_baseline_residual_zone,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,literature_2019_2020,temporal_weighted,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,-0.2500881314039707,-0.47939927875164456,139.31179925056438,59.77501582887629,52.11834784043698,False,
+H,literature_2019_2020,direct_global,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.4234550387085234,0.4193783180570465,0.2711049384504586,0.11734962310584443,88.42645304150848,,
+H,literature_2019_2020,spatial_zone_features,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.4402258006498114,0.4279010959666334,0.2671328373337738,0.1176726748500399,91.96603473107668,,
+H,literature_2019_2020,spatial_baseline_residual,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,literature_2019_2020,spatial_baseline_residual_zone,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,literature_2019_2020,temporal_weighted,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.41941710251919573,0.4198061757217416,0.2720526480468705,0.11400055646259688,81.44771588014628,True,
+H,literature_2019_2020,two_stage_high_pollution,RF,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.3338541131986744,0.4123361711474639,0.2914107130630604,0.11448063516601895,77.210741727435,,0.1599
+H,literature_2019_2020,direct_global,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.31297740263148566,0.3624290497242565,0.2959418260961202,0.12203659035722608,85.65834947833385,,
+H,literature_2019_2020,spatial_zone_features,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.2870596923564279,0.35629655963420126,0.30147230596085134,0.11960304876578202,81.23125270470936,,
+H,literature_2019_2020,spatial_baseline_residual,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,literature_2019_2020,spatial_baseline_residual_zone,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,literature_2019_2020,temporal_weighted,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.25695161418325574,0.3154002496802224,0.3077721977762113,0.12203816606676605,80.84584418366511,True,
+H,literature_2019_2020,two_stage_high_pollution,ExtraTrees,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.26306760188003686,0.335143277320638,0.30650295315292747,0.11835943578912139,78.95224672082878,,0.1599
+H,literature_2019_2020,direct_global,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.4069719912019848,0.42598878944167906,0.2749529863781519,0.11729767055593653,84.7108976617761,,
+H,literature_2019_2020,spatial_zone_features,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.42203278005375466,0.4404187012100724,0.2714391221390625,0.115249873683191,82.19212063050995,,
+H,literature_2019_2020,spatial_baseline_residual,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,literature_2019_2020,spatial_baseline_residual_zone,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,literature_2019_2020,temporal_weighted,HistGBR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.30288662275668987,0.32757991589555446,0.2981072557506375,0.12055375418093886,78.60136768980466,True,
+H,literature_2019_2020,direct_global,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.3655575519856721,0.4358273607267238,0.2843917242666459,0.10876476543009739,73.42905405973562,,
+H,literature_2019_2020,spatial_zone_features,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.364814408593349,0.4327486538998405,0.28455823423070864,0.10822767506554788,71.5928069265192,,
+H,literature_2019_2020,spatial_baseline_residual,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,literature_2019_2020,spatial_baseline_residual_zone,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,literature_2019_2020,temporal_weighted,ElasticNet,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.3722988764111729,0.4432756361362489,0.28287677448329973,0.10811348418808134,73.35218009560045,True,
+H,literature_2019_2020,direct_global,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.407717779182434,0.4634279247395031,0.27478004248729676,0.1113982351483731,78.06435513296924,,
+H,literature_2019_2020,spatial_zone_features,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.4004137435067484,0.4449138641550211,0.27646914729549343,0.11081136807688569,73.09020264240417,,
+H,literature_2019_2020,spatial_baseline_residual,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,literature_2019_2020,spatial_baseline_residual_zone,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,literature_2019_2020,temporal_weighted,PLSR,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.407717779182434,0.4634279247395031,0.27478004248729676,0.1113982351483731,78.06435513296924,False,
+H,literature_2019_2020,direct_global,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.30997034517076394,0.3174088336900762,0.2965887789251786,0.11499266498404741,80.04507425192423,,
+H,literature_2019_2020,spatial_zone_features,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.24486657508141696,0.2434196501790351,0.31026492738772765,0.11976476235139369,86.14778340447671,,
+H,literature_2019_2020,spatial_baseline_residual,XGBoost,"failed: [21:56:02] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+H,literature_2019_2020,spatial_baseline_residual_zone,XGBoost,"failed: [21:56:02] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+H,literature_2019_2020,temporal_weighted,XGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.3314936213277775,0.33439920143615887,0.2919265642752304,0.11929688585865497,81.84892879609824,True,
+H,literature_2019_2020,direct_global,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.17344718349461674,0.15819385954623144,0.3246057012388624,0.1315861820025926,97.89193871668222,,
+H,literature_2019_2020,spatial_zone_features,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.18459750659436358,0.16478991711242952,0.3224087767509239,0.13242200300410578,99.71565324546512,,
+H,literature_2019_2020,spatial_baseline_residual,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,literature_2019_2020,spatial_baseline_residual_zone,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,literature_2019_2020,temporal_weighted,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.17088714360687685,0.20384428350628758,0.32510800494208686,0.12870076904142042,86.80228247226277,True,
+H,literature_2019_2020,two_stage_high_pollution,LightGBM,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.2559842943392244,0.31297788045820485,0.3079724655717064,0.12161358632689775,84.37885281515668,,0.1599
+H,literature_2019_2020,direct_global,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.3063183283499501,0.3673655314566784,0.29737259874300126,0.11172454530495729,69.67766589284257,,
+H,literature_2019_2020,spatial_zone_features,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.3370950689936849,0.3991583978788382,0.2907009580359402,0.11153890784200936,69.82075048659995,,
+H,literature_2019_2020,spatial_baseline_residual,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+H,literature_2019_2020,spatial_baseline_residual_zone,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+H,literature_2019_2020,temporal_weighted,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.29252084018271984,0.3489950857930014,0.3003154420651779,0.11596312277840468,72.37446199826672,True,
+H,literature_2019_2020,two_stage_high_pollution,CatBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.22583964788544753,0.3067530476099741,0.31414944808691514,0.11520727790089834,71.71780119446808,,0.1599
+H,literature_2019_2020,direct_global,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.04879561568307711,0.10537002630118053,0.34822324635418833,0.1242137030002379,99.18847781736397,,
+H,literature_2019_2020,spatial_zone_features,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.1551200753388453,0.15662312676669832,0.3281847025527406,0.12093398401278298,96.12396775314886,,
+H,literature_2019_2020,spatial_baseline_residual,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,literature_2019_2020,spatial_baseline_residual_zone,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,literature_2019_2020,temporal_weighted,NGBoost,ok,815.0,100.0,2000.0,2018.0,2019.0,2020.0,0.12928932185230002,0.14181627074834502,0.33316377440552103,0.12314461306776227,97.50634881447903,False,
+A,temporal_2022_2026,direct_global,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.09876937530142726,0.13177296664967098,18.23246809236124,7.600642954609038,49.5315863993177,,
+A,temporal_2022_2026,spatial_zone_features,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.1046013883752247,0.1090328726739761,18.173379679686576,7.739398455531487,52.866434862732234,,
+A,temporal_2022_2026,spatial_baseline_residual,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,temporal_2022_2026,spatial_baseline_residual_zone,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,temporal_2022_2026,temporal_weighted,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.12578630530408963,0.1493876467270634,17.95710385588737,7.556500441467608,50.43653438388509,True,
+A,temporal_2022_2026,two_stage_high_pollution,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.12144385954135994,0.11628726470762052,18.001647401624624,7.588025903455362,56.771534776231206,,18.672499999999996
+A,temporal_2022_2026,direct_global,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.11726340284681591,0.1429910533902946,18.044425429231875,7.48843734162667,50.43083690825816,,
+A,temporal_2022_2026,spatial_zone_features,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.09384465372164408,0.105307367756593,18.28221534783917,7.550738224185583,51.429714268267524,,
+A,temporal_2022_2026,spatial_baseline_residual,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,temporal_2022_2026,spatial_baseline_residual_zone,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,temporal_2022_2026,temporal_weighted,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.08603083446975568,0.12071391771204965,18.360870342538387,7.443270929505319,50.10491757924878,True,
+A,temporal_2022_2026,two_stage_high_pollution,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.13710338654577547,0.16257695748815193,17.84049392636778,7.3894795555110235,54.62809671922352,,18.672499999999996
+A,temporal_2022_2026,direct_global,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.24314130013427548,0.1485886248827203,16.70840121618541,7.277257620300382,49.74454307885072,,
+A,temporal_2022_2026,spatial_zone_features,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.24195518801822702,0.19835342821413016,16.721488387369497,7.034313369946609,47.67342399633119,,
+A,temporal_2022_2026,spatial_baseline_residual,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,temporal_2022_2026,spatial_baseline_residual_zone,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,temporal_2022_2026,temporal_weighted,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.24564518784328981,0.08101009381746216,16.68074042633498,7.898900952042119,54.737700453512105,True,
+A,temporal_2022_2026,direct_global,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.10304217678160732,0.13983813632530695,18.189195998136146,7.230429688267067,55.981397859000246,,
+A,temporal_2022_2026,spatial_zone_features,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.10325623081532509,0.0839213785251256,18.187025493019156,7.4469490123351525,59.780978244510266,,
+A,temporal_2022_2026,spatial_baseline_residual,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,temporal_2022_2026,spatial_baseline_residual_zone,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,temporal_2022_2026,temporal_weighted,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.07695505289464699,0.14189601773335447,18.451807548795003,7.254027647020247,53.06177183259963,True,
+A,temporal_2022_2026,direct_global,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.09057077871479213,0.10317202229298117,18.315211745091048,7.464016496533824,58.051681340142416,,
+A,temporal_2022_2026,spatial_zone_features,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.09245290510981141,0.028664734945676007,18.296249633232097,7.731475735416552,62.66914512813484,,
+A,temporal_2022_2026,spatial_baseline_residual,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,temporal_2022_2026,spatial_baseline_residual_zone,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,temporal_2022_2026,temporal_weighted,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.09057077871479213,0.10317202229298117,18.315211745091048,7.464016496533824,58.051681340142416,False,
+A,temporal_2022_2026,direct_global,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.15366067766778024,0.19916993762798485,17.66850286936665,7.153781926659977,47.60786566095484,,
+A,temporal_2022_2026,spatial_zone_features,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.1387602496330006,0.17223593144534366,17.82335777220104,7.2652410051682415,48.04867044900154,,
+A,temporal_2022_2026,spatial_baseline_residual,XGBoost,"failed: [21:56:23] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+A,temporal_2022_2026,spatial_baseline_residual_zone,XGBoost,"failed: [21:56:23] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+A,temporal_2022_2026,temporal_weighted,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.1794246436499053,0.18847860598192778,17.39749525376696,7.444663470660938,49.98431886578905,True,
+A,temporal_2022_2026,direct_global,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.26842434343636945,0.080937157027271,16.426956781879202,7.762049405850758,56.76266957240098,,
+A,temporal_2022_2026,spatial_zone_features,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.2368410749004467,0.04845062076819584,16.7777989342833,7.715825755717498,57.67354600468677,,
+A,temporal_2022_2026,spatial_baseline_residual,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,temporal_2022_2026,spatial_baseline_residual_zone,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,temporal_2022_2026,temporal_weighted,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.44474055023207726,0.20810174943564985,14.311180881210285,7.2071675037538565,53.850362722247965,True,
+A,temporal_2022_2026,two_stage_high_pollution,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.09401797204275852,0.13911704225102872,18.280466864859587,7.3076947485660995,51.10579901374629,,18.672499999999996
+A,temporal_2022_2026,direct_global,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.12876101421907427,0.18020145633934137,17.92652627759968,7.259578095483969,47.58056254274617,,
+A,temporal_2022_2026,spatial_zone_features,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.11967747418040009,0.15147908269423793,18.019734964955948,7.449394132970184,49.65515386227863,,
+A,temporal_2022_2026,spatial_baseline_residual,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+A,temporal_2022_2026,spatial_baseline_residual_zone,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+A,temporal_2022_2026,temporal_weighted,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.10010544238493502,0.15310144216433796,18.21894833681728,7.445239793467837,48.810305341573326,True,
+A,temporal_2022_2026,two_stage_high_pollution,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.13591818578072445,0.16161716924264347,17.852741808160324,7.230661205337095,53.122974902618914,,18.672499999999996
+A,temporal_2022_2026,direct_global,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.09008278163734296,0.17194421985867092,18.32012503076604,7.14977398818178,47.204207062608,,
+A,temporal_2022_2026,spatial_zone_features,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.08156107768561549,0.16663504602334367,18.405712408076628,7.156656524494361,47.21020564942776,,
+A,temporal_2022_2026,spatial_baseline_residual,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,temporal_2022_2026,spatial_baseline_residual_zone,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+A,temporal_2022_2026,temporal_weighted,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.08669736726857413,0.16707521573423179,18.354174080341586,7.172483787313648,47.319498314484484,False,
+B,temporal_2022_2026,direct_global,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.09579683237217207,-0.24996899544965268,2.152859161362293,1.0914090130210559,402.98988516653696,,
+B,temporal_2022_2026,spatial_zone_features,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.1272390373177703,-0.24687754024942166,2.183527215490624,1.1102838337490097,406.71559681974674,,
+B,temporal_2022_2026,spatial_baseline_residual,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,temporal_2022_2026,spatial_baseline_residual_zone,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,temporal_2022_2026,temporal_weighted,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.24822161063726855,-0.34126288756186995,2.297716525737637,1.1455972899777072,404.1959664484958,True,
+B,temporal_2022_2026,two_stage_high_pollution,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.2122596856047574,-0.4050830743246474,2.264375412507405,1.2051177210251713,493.9523866449273,,1.32
+B,temporal_2022_2026,direct_global,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.10010432869716346,-0.15655668014183655,2.157086376310025,1.026651031046318,389.85621556586597,,
+B,temporal_2022_2026,spatial_zone_features,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.09532414974655912,-0.1629937195635267,2.152394782905195,1.0330425711701348,397.1316293631305,,
+B,temporal_2022_2026,spatial_baseline_residual,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,temporal_2022_2026,spatial_baseline_residual_zone,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,temporal_2022_2026,temporal_weighted,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.14154706631175884,-0.19143901758549564,2.1973412582267247,1.047556427542835,371.04155134096544,True,
+B,temporal_2022_2026,two_stage_high_pollution,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.26852993242855705,-0.3565950403972111,2.3163328099527796,1.1644463922896735,446.69998684504765,,1.32
+B,temporal_2022_2026,direct_global,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.1527972208783972,-0.32999844131469813,2.208142311340983,1.1006141640368894,452.19463875672494,,
+B,temporal_2022_2026,spatial_zone_features,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.1419284321992158,-0.3365803648426511,2.1977082693849996,1.1221947268196608,453.9770823936756,,
+B,temporal_2022_2026,spatial_baseline_residual,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,temporal_2022_2026,spatial_baseline_residual_zone,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,temporal_2022_2026,temporal_weighted,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.39276111946769143,-0.47977778573563157,2.4271069640733636,1.18006834719231,424.00083945049437,True,
+B,temporal_2022_2026,direct_global,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.06037146472178789,-0.15835085368443624,2.1177740148133175,1.0192297918664384,404.7488700684524,,
+B,temporal_2022_2026,spatial_zone_features,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.11897874386521301,-0.18457454140952922,2.175512172036435,0.9956745353489812,381.74998944319236,,
+B,temporal_2022_2026,spatial_baseline_residual,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,temporal_2022_2026,spatial_baseline_residual_zone,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,temporal_2022_2026,temporal_weighted,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.04656021286664225,-0.11407932544466726,2.103936893370289,0.9736916950071504,365.3742201193458,True,
+B,temporal_2022_2026,direct_global,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.09503058398526254,-0.19309151600346453,2.1521063241156897,1.039222788407608,408.9206775767442,,
+B,temporal_2022_2026,spatial_zone_features,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.13670719772286755,-0.1861798714289833,2.1926782270368492,1.0052898153106498,377.2461480230939,,
+B,temporal_2022_2026,spatial_baseline_residual,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,temporal_2022_2026,spatial_baseline_residual_zone,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,temporal_2022_2026,temporal_weighted,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.09503058398526254,-0.19309151600346453,2.1521063241156897,1.039222788407608,408.9206775767442,False,
+B,temporal_2022_2026,direct_global,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.3239557711269989,-0.2867926960176257,2.3663955375042183,1.0849559646844864,342.9079913257421,,
+B,temporal_2022_2026,spatial_zone_features,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.16253369914883464,-0.20138564561266903,2.217447644450287,1.0381072889005436,336.14823537006356,,
+B,temporal_2022_2026,spatial_baseline_residual,XGBoost,"failed: [21:56:45] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+B,temporal_2022_2026,spatial_baseline_residual_zone,XGBoost,"failed: [21:56:45] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+B,temporal_2022_2026,temporal_weighted,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.25888816683528115,-0.2849582507193271,2.307513097733715,1.0696715834701764,351.15685749195336,True,
+B,temporal_2022_2026,direct_global,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.08385022388352836,-0.34071992449159705,2.141091537564593,1.1004432053196749,469.31028144125895,,
+B,temporal_2022_2026,spatial_zone_features,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.08061842063159053,-0.2821301596178547,2.1378970221612694,1.0849518652202121,442.47390510855763,,
+B,temporal_2022_2026,spatial_baseline_residual,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,temporal_2022_2026,spatial_baseline_residual_zone,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,temporal_2022_2026,temporal_weighted,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.3408436979395604,-0.5027699127425154,2.381440179347797,1.1873229596082333,430.75936222125966,True,
+B,temporal_2022_2026,two_stage_high_pollution,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.31300930437042895,-0.4687740539163012,2.356592553131452,1.1893389498939069,445.2159842466277,,1.32
+B,temporal_2022_2026,direct_global,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.1230013566717183,-0.14091012612150933,2.1794190345767874,1.0060814795557316,337.453569258407,,
+B,temporal_2022_2026,spatial_zone_features,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.11563477880451023,-0.247167792627623,2.1722590808076268,1.0602319773693127,371.48628806871585,,
+B,temporal_2022_2026,spatial_baseline_residual,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+B,temporal_2022_2026,spatial_baseline_residual_zone,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+B,temporal_2022_2026,temporal_weighted,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.23945320649949786,-0.29919668863282767,2.289631897964707,1.0782248077217476,373.49896105857863,True,
+B,temporal_2022_2026,two_stage_high_pollution,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.042158605915733505,-0.17071729162523974,2.09950787877498,1.0348015252730651,401.96567213345816,,1.32
+B,temporal_2022_2026,direct_global,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-1.9745081719442394,-0.5960257512288165,3.5469754483296185,1.3759150775132967,384.7508513150974,,
+B,temporal_2022_2026,spatial_zone_features,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-1.30512352857889,-0.5129437720314689,3.1224658767027904,1.2923058346478253,385.12660440301045,,
+B,temporal_2022_2026,spatial_baseline_residual,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,temporal_2022_2026,spatial_baseline_residual_zone,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+B,temporal_2022_2026,temporal_weighted,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-2.213327038592722,-0.6026566961538606,3.6866173561514914,1.3989714642269941,381.99662590692293,False,
+C,temporal_2022_2026,direct_global,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.06034971282200785,-0.3043633608851537,35.03125415980201,24.040592730830294,67.41064571236838,,
+C,temporal_2022_2026,spatial_zone_features,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.05798864884586519,-0.2940809809929461,34.992230653969166,24.070980256407573,67.16091744872608,,
+C,temporal_2022_2026,spatial_baseline_residual,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,temporal_2022_2026,spatial_baseline_residual_zone,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,temporal_2022_2026,temporal_weighted,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.045041886843297796,-0.22816533377110804,34.777469089424194,22.41879661020191,60.22275412056119,True,
+C,temporal_2022_2026,two_stage_high_pollution,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.04557363084487176,-0.35900331844863587,34.786315796440654,25.09373422451257,72.77066060723494,,77.73499999999999
+C,temporal_2022_2026,direct_global,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.055421716859819004,-0.29408222354094016,34.949755139126474,22.87480257547625,64.4200491310234,,
+C,temporal_2022_2026,spatial_zone_features,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.02678871142082695,-0.2765654783113931,34.4724116317804,23.063097472053315,65.06167746187536,,
+C,temporal_2022_2026,spatial_baseline_residual,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,temporal_2022_2026,spatial_baseline_residual_zone,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,temporal_2022_2026,temporal_weighted,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.05552867646942805,-0.2993950169597126,34.951526050886336,22.87379063677309,63.932058591617036,True,
+C,temporal_2022_2026,two_stage_high_pollution,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.04031833821574948,-0.37283347958879,34.6987836720619,24.81949041233605,73.05986600378628,,77.73499999999999
+C,temporal_2022_2026,direct_global,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.03445632184016567,-0.15130084798203192,34.600884702747564,22.83466991692686,59.258411581187595,,
+C,temporal_2022_2026,spatial_zone_features,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.03480640567560411,-0.14604209982993677,34.606739075472944,23.200373838566108,59.984142231532125,,
+C,temporal_2022_2026,spatial_baseline_residual,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,temporal_2022_2026,spatial_baseline_residual_zone,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,temporal_2022_2026,temporal_weighted,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.005801869369034485,-0.09682299884911516,34.11829685164862,21.96423589233479,56.89442609397708,True,
+C,temporal_2022_2026,direct_global,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.05224278179784281,-0.43381891672832373,34.897081033997615,27.09231286036827,78.83929974858046,,
+C,temporal_2022_2026,spatial_zone_features,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.05514074751058584,-0.4647129911072272,34.94510275068629,27.540442354305508,80.93283194123698,,
+C,temporal_2022_2026,spatial_baseline_residual,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,temporal_2022_2026,spatial_baseline_residual_zone,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,temporal_2022_2026,temporal_weighted,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.041285321687550836,-0.46354482598983715,34.71490631246792,27.674648518533008,81.84678229875874,True,
+C,temporal_2022_2026,direct_global,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.14118125690586258,-0.5656898912483306,36.34196780668047,28.71189771125523,84.22215173472986,,
+C,temporal_2022_2026,spatial_zone_features,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.09151039371768777,-0.5157538958694443,35.54226184631737,28.494696259378696,83.49898340053339,,
+C,temporal_2022_2026,spatial_baseline_residual,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,temporal_2022_2026,spatial_baseline_residual_zone,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,temporal_2022_2026,temporal_weighted,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.14118125690586258,-0.5656898912483306,36.34196780668047,28.71189771125523,84.22215173472986,False,
+C,temporal_2022_2026,direct_global,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.003233364315374021,-0.17693176222956675,33.964706855234446,21.97187142226275,58.233028838526316,,
+C,temporal_2022_2026,spatial_zone_features,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.01213961713366396,-0.1369743718589631,33.812626615276685,21.452689284380746,56.88121122949976,,
+C,temporal_2022_2026,spatial_baseline_residual,XGBoost,"failed: [21:57:06] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+C,temporal_2022_2026,spatial_baseline_residual_zone,XGBoost,"failed: [21:57:06] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+C,temporal_2022_2026,temporal_weighted,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.017949696737340703,-0.14464772502354628,34.323714661822656,21.80981941357781,54.9793903866002,True,
+C,temporal_2022_2026,direct_global,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.05570137971298528,-0.20341112088687696,34.95438527923414,23.486456121706176,61.917792097907935,,
+C,temporal_2022_2026,spatial_zone_features,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.029786479251265763,-0.08043412987077847,33.50925601659731,22.173775936952733,57.75521366753401,,
+C,temporal_2022_2026,spatial_baseline_residual,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,temporal_2022_2026,spatial_baseline_residual_zone,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,temporal_2022_2026,temporal_weighted,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.09134611329217002,-0.2694510261927616,35.53958705840445,23.30171101385566,61.525404161746444,True,
+C,temporal_2022_2026,two_stage_high_pollution,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.008180705821442702,-0.32314613356537514,34.15861986064174,25.47588649442572,73.1591318933654,,77.73499999999999
+C,temporal_2022_2026,direct_global,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.0349635946003477,-0.2473383218182783,34.609367388127055,22.463995770247067,62.32038474732322,,
+C,temporal_2022_2026,spatial_zone_features,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.013755247500398915,-0.18245541090601658,33.784965286980004,21.93172982447451,60.48654820383018,,
+C,temporal_2022_2026,spatial_baseline_residual,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+C,temporal_2022_2026,spatial_baseline_residual_zone,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+C,temporal_2022_2026,temporal_weighted,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.018335370574149357,-0.228462231036483,34.330216213495156,22.45645976252396,61.95568629681141,True,
+C,temporal_2022_2026,two_stage_high_pollution,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.06493344255969258,-0.4075544195905738,35.10688988619072,25.533354365998747,75.06003527514973,,77.73499999999999
+C,temporal_2022_2026,direct_global,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.0353572586289832,-0.2218080242517546,34.61594886004761,23.132822776930627,62.19751837809594,,
+C,temporal_2022_2026,spatial_zone_features,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.04299695812413251,-0.2083793673682599,34.7434263056879,22.731620233015214,60.332231514935195,,
+C,temporal_2022_2026,spatial_baseline_residual,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,temporal_2022_2026,spatial_baseline_residual_zone,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+C,temporal_2022_2026,temporal_weighted,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.036052635159304236,-0.21739253536692504,34.62757145594365,23.18378422569034,62.05916584826356,False,
+D,temporal_2022_2026,direct_global,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.12839732168157691,0.29842692444221597,47.051277027894464,17.051060393369692,28.763517687463562,,
+D,temporal_2022_2026,spatial_zone_features,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.1418070993385634,0.30754362244831845,46.687927510675905,17.252191022159565,29.477504139298794,,
+D,temporal_2022_2026,spatial_baseline_residual,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,temporal_2022_2026,spatial_baseline_residual_zone,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,temporal_2022_2026,temporal_weighted,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.1432215814623251,0.28990342300907535,46.64943588898438,17.696285755297176,31.00610039060927,True,
+D,temporal_2022_2026,two_stage_high_pollution,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.11037636389678851,0.25450090539941794,47.53519651319643,16.715948277756755,29.494256200569442,,47.0
+D,temporal_2022_2026,direct_global,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.10714312432470796,0.28062256080413606,47.621498900290796,17.90064524239612,29.723203381233454,,
+D,temporal_2022_2026,spatial_zone_features,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.0944268390731805,0.22625244094076102,47.95941846823383,18.241819166717466,30.550979885663978,,
+D,temporal_2022_2026,spatial_baseline_residual,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,temporal_2022_2026,spatial_baseline_residual_zone,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,temporal_2022_2026,temporal_weighted,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.07521151958654959,0.24391928423205467,48.46557200910267,17.87610382026637,28.628042501578193,True,
+D,temporal_2022_2026,two_stage_high_pollution,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.09968706205235334,0.24325338777941097,47.81992413139245,17.15318679808839,29.53912853217317,,47.0
+D,temporal_2022_2026,direct_global,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.10357489701892098,0.19610043104518327,47.71656167220143,17.58968961755286,30.633347066842433,,
+D,temporal_2022_2026,spatial_zone_features,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.0991923987348452,0.20541502785749988,47.83305929419054,17.36956892470903,30.013708952332735,,
+D,temporal_2022_2026,spatial_baseline_residual,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,temporal_2022_2026,spatial_baseline_residual_zone,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,temporal_2022_2026,temporal_weighted,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.07497753939893925,0.0631530039197522,48.47170274422837,18.27693937069075,33.57159046948982,True,
+D,temporal_2022_2026,direct_global,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.15727767295690176,0.3477473183966,46.265193964698476,16.603212897898462,28.53524131906779,,
+D,temporal_2022_2026,spatial_zone_features,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.08760343336927623,0.21593541814709538,48.13976416110244,17.63319402026754,30.467030010876982,,
+D,temporal_2022_2026,spatial_baseline_residual,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,temporal_2022_2026,spatial_baseline_residual_zone,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,temporal_2022_2026,temporal_weighted,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.10368033627666673,0.27678128526005064,47.71375533245163,17.31966452885526,29.0978144098566,True,
+D,temporal_2022_2026,direct_global,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.15243241219221715,0.3176739568773985,46.39800499333013,16.93388981054509,30.242750713801573,,
+D,temporal_2022_2026,spatial_zone_features,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.0418338984908283,0.1001808660626593,49.33243339348591,18.345651872504444,32.697141337419275,,
+D,temporal_2022_2026,spatial_baseline_residual,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,temporal_2022_2026,spatial_baseline_residual_zone,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,temporal_2022_2026,temporal_weighted,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.15243241219221715,0.3176739568773985,46.39800499333013,16.93388981054509,30.242750713801573,False,
+D,temporal_2022_2026,direct_global,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.1601409731352924,0.35703083641493805,46.18652994390888,15.990462634367104,26.576897113812343,,
+D,temporal_2022_2026,spatial_zone_features,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.1613527808133478,0.3572831204369973,46.15319732887012,15.646643806008733,25.994454839834397,,
+D,temporal_2022_2026,spatial_baseline_residual,XGBoost,"failed: [21:57:28] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+D,temporal_2022_2026,spatial_baseline_residual_zone,XGBoost,"failed: [21:57:28] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+D,temporal_2022_2026,temporal_weighted,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.09510827884991924,0.2653661234220649,47.94137044776421,17.789918011384852,28.942795042192333,True,
+D,temporal_2022_2026,direct_global,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.12899383991085211,0.20371530429256968,47.035173504465256,18.00302440262566,33.09990514104517,,
+D,temporal_2022_2026,spatial_zone_features,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.10426457152960533,0.15902131926631347,47.69820250959278,17.769672829296777,32.493568814774996,,
+D,temporal_2022_2026,spatial_baseline_residual,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,temporal_2022_2026,spatial_baseline_residual_zone,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,temporal_2022_2026,temporal_weighted,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.07131684496550539,0.03449683649453961,48.5675192760481,19.320688532233955,36.637119661490594,True,
+D,temporal_2022_2026,two_stage_high_pollution,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.07745556256460584,0.15834119397004454,48.40673429316647,19.28750429292716,34.82026056409914,,47.0
+D,temporal_2022_2026,direct_global,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.13829238935686616,0.3286458277318738,46.78343450946031,17.095455095319526,28.204607045207155,,
+D,temporal_2022_2026,spatial_zone_features,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.1423279062067988,0.3487501063705215,46.67375873612069,16.711692985185692,27.339723038571627,,
+D,temporal_2022_2026,spatial_baseline_residual,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+D,temporal_2022_2026,spatial_baseline_residual_zone,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+D,temporal_2022_2026,temporal_weighted,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.13119782811192726,0.2711616007914738,46.975627066346,17.293509121818325,29.827888737321807,True,
+D,temporal_2022_2026,two_stage_high_pollution,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.14277989619652354,0.27783961786146094,46.66145866712893,17.473672679318028,31.793158770038737,,47.0
+D,temporal_2022_2026,direct_global,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.2749282581193663,0.48657941697420726,42.91435870846325,15.685215832180567,26.49334070390314,,
+D,temporal_2022_2026,spatial_zone_features,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.2891750437945674,0.5014480588202272,42.49065937946107,15.20413020978372,25.743141207128772,,
+D,temporal_2022_2026,spatial_baseline_residual,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,temporal_2022_2026,spatial_baseline_residual_zone,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+D,temporal_2022_2026,temporal_weighted,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.2714398459166171,0.48280901490421513,43.01746805323643,15.69512878826342,26.560009438270527,False,
+E,temporal_2022_2026,direct_global,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.025901925611150567,-0.009731888955917478,24.647773823374656,11.402563023854755,26.11298304562136,,
+E,temporal_2022_2026,spatial_zone_features,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.025539924050393736,-0.017072194919386607,24.64342481124469,11.457056763593233,26.11970975926912,,
+E,temporal_2022_2026,spatial_baseline_residual,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,temporal_2022_2026,spatial_baseline_residual_zone,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,temporal_2022_2026,temporal_weighted,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.025479615587613025,0.05639888118368808,24.022612810993575,11.379609452330278,25.95213259676288,True,
+E,temporal_2022_2026,two_stage_high_pollution,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.11081953498660946,0.1403028102872641,22.946673380971582,11.198120294619198,25.73722917948072,,37.1
+E,temporal_2022_2026,direct_global,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.07426794072963239,0.09357820358441049,23.413558763848553,10.6886484981091,25.006940898254964,,
+E,temporal_2022_2026,spatial_zone_features,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.04482304275744098,0.08218212195486685,23.783003297042864,10.84376398586824,25.337180827172062,,
+E,temporal_2022_2026,spatial_baseline_residual,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,temporal_2022_2026,spatial_baseline_residual_zone,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,temporal_2022_2026,temporal_weighted,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.16010881095457952,0.16645246535545177,22.301613770525258,10.505049274192071,25.068795429023577,True,
+E,temporal_2022_2026,two_stage_high_pollution,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.2638974680420656,0.26756815504534603,20.87824229750043,10.015647177088034,23.81168425059157,,37.1
+E,temporal_2022_2026,direct_global,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.040331392331286464,0.03197550122603987,23.83885663728747,12.028400508426222,29.230370955163583,,
+E,temporal_2022_2026,spatial_zone_features,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.0467337560934763,0.038659100943441715,23.759203911227594,12.032716313580082,29.157977690797317,,
+E,temporal_2022_2026,spatial_baseline_residual,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,temporal_2022_2026,spatial_baseline_residual_zone,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,temporal_2022_2026,temporal_weighted,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.10970267010062884,0.1244917976394887,22.96108006899504,11.504373208518937,27.873065740260195,True,
+E,temporal_2022_2026,direct_global,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.25491659615375595,0.2480819118786043,21.005219421731034,10.235626304625777,24.98836457198722,,
+E,temporal_2022_2026,spatial_zone_features,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.2658787380837674,0.24658858633380087,20.850125760616017,10.205936619367051,25.0129138965119,,
+E,temporal_2022_2026,spatial_baseline_residual,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,temporal_2022_2026,spatial_baseline_residual_zone,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,temporal_2022_2026,temporal_weighted,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.3132604474503955,0.2610545367902267,20.166048538735623,9.998644078376518,24.865043114267447,True,
+E,temporal_2022_2026,direct_global,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.3449180557023108,0.29514408103513745,19.695753137850637,9.955407216682822,25.151566910573003,,
+E,temporal_2022_2026,spatial_zone_features,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.3526977686259215,0.2935801133632274,19.578451052472854,9.860954166406252,25.017276975516197,,
+E,temporal_2022_2026,spatial_baseline_residual,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,temporal_2022_2026,spatial_baseline_residual_zone,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,temporal_2022_2026,temporal_weighted,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.3449180557023108,0.29514408103513745,19.695753137850637,9.955407216682822,25.151566910573003,False,
+E,temporal_2022_2026,direct_global,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.08217151779637,0.08744024241885673,23.313396122677766,11.297008787267346,27.663437630153727,,
+E,temporal_2022_2026,spatial_zone_features,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.04066035956977121,0.08740672021830354,23.834770395979117,11.366218327690571,26.52187594227261,,
+E,temporal_2022_2026,spatial_baseline_residual,XGBoost,"failed: [21:57:50] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+E,temporal_2022_2026,spatial_baseline_residual_zone,XGBoost,"failed: [21:57:50] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+E,temporal_2022_2026,temporal_weighted,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.03861998139862721,0.02039382012748292,23.86010350656172,11.832243657729205,28.691652598034032,True,
+E,temporal_2022_2026,direct_global,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.1400255256597226,0.12594255903031093,22.566674149652023,11.528228653182408,27.04399143476343,,
+E,temporal_2022_2026,spatial_zone_features,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.21255851861232644,0.17381698995808792,21.594041026715168,11.40795953506788,26.896700207144285,,
+E,temporal_2022_2026,spatial_baseline_residual,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,temporal_2022_2026,spatial_baseline_residual_zone,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,temporal_2022_2026,temporal_weighted,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.20194109661001458,0.13832023296563734,21.7391345803648,11.637919000525745,28.49909585173151,True,
+E,temporal_2022_2026,two_stage_high_pollution,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.19304549281347871,0.22477161991519046,21.85995700482055,10.485624500474,24.70268303205172,,37.1
+E,temporal_2022_2026,direct_global,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.12934815371501018,0.13745991096163468,22.706334962549356,10.686368766010785,25.622925878517087,,
+E,temporal_2022_2026,spatial_zone_features,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.041974186297624616,0.0702083225961756,23.81844380740344,10.8760867109316,25.236992485029834,,
+E,temporal_2022_2026,spatial_baseline_residual,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+E,temporal_2022_2026,spatial_baseline_residual_zone,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+E,temporal_2022_2026,temporal_weighted,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.09973060460346161,0.10349970733462965,23.089313520284872,10.973073966332256,26.462697338031443,True,
+E,temporal_2022_2026,two_stage_high_pollution,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.15106791799295882,0.1832409830802958,22.421323806338304,10.748369847435223,25.05406444872446,,37.1
+E,temporal_2022_2026,direct_global,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.17982957976959146,0.18409216960609565,22.038235961741677,10.364408411817106,23.933659848237568,,
+E,temporal_2022_2026,spatial_zone_features,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.18083597350385183,0.18761264749448625,22.024710754071414,10.308363167778685,23.775766075586404,,
+E,temporal_2022_2026,spatial_baseline_residual,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,temporal_2022_2026,spatial_baseline_residual_zone,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+E,temporal_2022_2026,temporal_weighted,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.20506930518398703,0.1991955394554823,21.6964865261944,10.244621638075841,23.863604098886537,False,
+F,temporal_2022_2026,direct_global,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.09564240963785697,-1.0603449296838132,84.20190034769503,52.663701133123645,37.93416498462609,,
+F,temporal_2022_2026,spatial_zone_features,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.08503813878403021,-0.9182063610672699,83.79343186797286,52.28099206323261,37.5236733033834,,
+F,temporal_2022_2026,spatial_baseline_residual,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,temporal_2022_2026,spatial_baseline_residual_zone,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,temporal_2022_2026,temporal_weighted,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.1566092653904314,-1.0086557316455242,86.51288789856258,53.590446842372664,39.17808547514925,True,
+F,temporal_2022_2026,two_stage_high_pollution,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.027357928371814833,-0.5531199105717608,81.53580520101124,51.20103542742126,40.1126356361716,,104.57999999999997
+F,temporal_2022_2026,direct_global,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.08473977861546844,-0.6344341311653461,83.78191045667583,47.9306102627596,33.4486378259146,,
+F,temporal_2022_2026,spatial_zone_features,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.1260372436161128,-0.6864687520554478,85.36185683051308,50.17267662211077,36.781882683248234,,
+F,temporal_2022_2026,spatial_baseline_residual,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,temporal_2022_2026,spatial_baseline_residual_zone,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,temporal_2022_2026,temporal_weighted,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.09762656572291895,-0.5200991094736978,84.27810867126546,48.2697599380117,33.903929140076436,True,
+F,temporal_2022_2026,two_stage_high_pollution,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.10280975434663442,-0.5098057404415417,84.47686244837625,51.38798778766663,40.322012819184074,,104.57999999999997
+F,temporal_2022_2026,direct_global,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.1188327709329815,-0.7348738745402754,85.08834278270538,51.784341060678635,39.151193789609536,,
+F,temporal_2022_2026,spatial_zone_features,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.07943122576729467,-0.5887377205090527,83.57665100566386,50.06971432743266,37.41488611046932,,
+F,temporal_2022_2026,spatial_baseline_residual,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,temporal_2022_2026,spatial_baseline_residual_zone,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,temporal_2022_2026,temporal_weighted,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.12705184426568317,-0.5051464576600939,85.40030524568667,50.658041769229506,36.698782180217,True,
+F,temporal_2022_2026,direct_global,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.03710023134875018,-1.0727937957026787,78.93652745484182,51.047347031294294,37.83109815734696,,
+F,temporal_2022_2026,spatial_zone_features,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.0629513865116178,-1.5405992403030266,82.93620850548704,53.28596705651147,40.07967608424962,,
+F,temporal_2022_2026,spatial_baseline_residual,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,temporal_2022_2026,spatial_baseline_residual_zone,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,temporal_2022_2026,temporal_weighted,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.030973391128938932,-1.169755718821234,79.18726206889917,50.61753961295958,37.53425389746331,True,
+F,temporal_2022_2026,direct_global,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.01443387486755543,-1.38904182435232,81.02132617722268,53.88976206846111,40.47867330400905,,
+F,temporal_2022_2026,spatial_zone_features,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.14471428232094508,-2.0352875337069514,86.06687346207744,56.8842601670919,43.34711306127683,,
+F,temporal_2022_2026,spatial_baseline_residual,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,temporal_2022_2026,spatial_baseline_residual_zone,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,temporal_2022_2026,temporal_weighted,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.01443387486755543,-1.38904182435232,81.02132617722268,53.88976206846111,40.47867330400905,False,
+F,temporal_2022_2026,direct_global,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.0685023336723447,-0.6006051590004482,83.15248134685665,49.02594136585908,35.36221786691346,,
+F,temporal_2022_2026,spatial_zone_features,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.04430697388309146,-0.7151579488805131,82.20563058786163,49.2389369354248,36.24825828682615,,
+F,temporal_2022_2026,spatial_baseline_residual,XGBoost,"failed: [21:58:11] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+F,temporal_2022_2026,spatial_baseline_residual_zone,XGBoost,"failed: [21:58:11] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+F,temporal_2022_2026,temporal_weighted,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.2507476064132441,-0.843853233098327,89.96473731299544,55.468433274213005,43.423822829934586,True,
+F,temporal_2022_2026,direct_global,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.011053335150798205,-0.5161266761471526,80.88621417822648,49.78001432419002,36.66284797736362,,
+F,temporal_2022_2026,spatial_zone_features,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.04997070383677127,-0.6819089199053883,78.40720539567539,50.68452550118947,39.320544177193305,,
+F,temporal_2022_2026,spatial_baseline_residual,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,temporal_2022_2026,spatial_baseline_residual_zone,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,temporal_2022_2026,temporal_weighted,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.060732290817015366,-0.6878161838502279,82.8495914025839,52.14838046477773,39.600048630311704,True,
+F,temporal_2022_2026,two_stage_high_pollution,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.05299867339556297,-0.6012151352150608,82.54701780150134,51.09549007967072,39.42827570640882,,104.57999999999997
+F,temporal_2022_2026,direct_global,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.1492667217172461,-1.0032908586686058,86.23784426699828,54.66768443976391,41.79283389727341,,
+F,temporal_2022_2026,spatial_zone_features,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.14038995056488845,-0.9455696426374647,85.90415431088647,54.44249110712441,41.21023822126855,,
+F,temporal_2022_2026,spatial_baseline_residual,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+F,temporal_2022_2026,spatial_baseline_residual_zone,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+F,temporal_2022_2026,temporal_weighted,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.12449803782905922,-0.8523384485316903,85.30349535299817,52.91554577720951,40.4115553425101,True,
+F,temporal_2022_2026,two_stage_high_pollution,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.02643263027887177,-0.7179789913908421,81.4990789938407,52.95469770489667,42.38773665372295,,104.57999999999997
+F,temporal_2022_2026,direct_global,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.1346928154094431,-1.0922900569646683,85.68930659506889,58.77213140963016,49.57161656922114,,
+F,temporal_2022_2026,spatial_zone_features,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.12023476344655815,-1.027197041918905,85.1416375533511,55.913651594655576,46.856565017933406,,
+F,temporal_2022_2026,spatial_baseline_residual,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,temporal_2022_2026,spatial_baseline_residual_zone,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+F,temporal_2022_2026,temporal_weighted,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.12755347928744754,-1.0065783911353616,85.41930837247796,56.953280061627936,46.98936305944238,False,
+G,temporal_2022_2026,direct_global,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.35341104325732586,-0.49342712748869655,31.921284546534626,24.324555370843715,48.10747701357737,,
+G,temporal_2022_2026,spatial_zone_features,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.13080357679029908,-0.3327535013591869,29.178239743294483,22.81703472462307,44.91521167276679,,
+G,temporal_2022_2026,spatial_baseline_residual,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,temporal_2022_2026,spatial_baseline_residual_zone,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,temporal_2022_2026,temporal_weighted,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.11302572653281873,-0.2875300662594138,28.947969273100554,22.417375185975825,43.60868259497416,True,
+G,temporal_2022_2026,two_stage_high_pollution,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.75537434479011,-0.7016966053282134,36.35384698920135,29.314576874105786,54.787172287337036,,124.38699999999994
+G,temporal_2022_2026,direct_global,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.41636326942430824,-0.4553682374575996,32.655236200282964,24.417817674635405,47.03488183738312,,
+G,temporal_2022_2026,spatial_zone_features,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.30970130152013153,-0.38447004475624413,31.401589441835082,23.165327816089036,44.726891467337865,,
+G,temporal_2022_2026,spatial_baseline_residual,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,temporal_2022_2026,spatial_baseline_residual_zone,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,temporal_2022_2026,temporal_weighted,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.5634427344556785,-0.5036215631039549,34.30887604836065,24.63162337887332,47.477224299561186,True,
+G,temporal_2022_2026,two_stage_high_pollution,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.9011443280526872,-0.8456843152741549,37.83319733757762,30.74903730072335,58.47779390955588,,124.38699999999994
+G,temporal_2022_2026,direct_global,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.4917168699956369,-0.56040931835092,33.51264470265814,23.79307429268468,47.94505766382361,,
+G,temporal_2022_2026,spatial_zone_features,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.21267282103331597,-0.44445438200321363,30.21602447732466,21.903996785898673,45.58662851851311,,
+G,temporal_2022_2026,spatial_baseline_residual,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,temporal_2022_2026,spatial_baseline_residual_zone,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,temporal_2022_2026,temporal_weighted,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.44702909307165983,-0.5177471826335056,33.00685406576593,22.434057248532046,45.647248240154,True,
+G,temporal_2022_2026,direct_global,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.036487862817479955,-0.24634758587608774,26.933580805203338,20.874722744261366,42.39618777651323,,
+G,temporal_2022_2026,spatial_zone_features,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.0666873952143936,-0.15620203946903954,26.508128499812415,21.085491411522234,40.78551711354241,,
+G,temporal_2022_2026,spatial_baseline_residual,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,temporal_2022_2026,spatial_baseline_residual_zone,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,temporal_2022_2026,temporal_weighted,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.05836771052193068,-0.2860998743531802,28.22823942734462,21.631744511373764,43.31245871187977,True,
+G,temporal_2022_2026,direct_global,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.11308746627889066,-0.18891812063336078,25.840796608068377,20.383590330658194,41.11350703143138,,
+G,temporal_2022_2026,spatial_zone_features,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.07293902030651178,-0.13473932684282963,26.419199386877285,20.983220379654256,39.84799122931159,,
+G,temporal_2022_2026,spatial_baseline_residual,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,temporal_2022_2026,spatial_baseline_residual_zone,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,temporal_2022_2026,temporal_weighted,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.11308746627889066,-0.18891812063336078,25.840796608068377,20.383590330658194,41.11350703143138,False,
+G,temporal_2022_2026,direct_global,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.04888142520988481,-0.22699303402572157,26.759798151220796,20.684102346083698,41.686194922001874,,
+G,temporal_2022_2026,spatial_zone_features,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.03851837264503888,-0.20799595122353698,26.90518586251712,20.666699809354895,41.12671054339665,,
+G,temporal_2022_2026,spatial_baseline_residual,XGBoost,"failed: [21:58:32] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+G,temporal_2022_2026,spatial_baseline_residual_zone,XGBoost,"failed: [21:58:32] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+G,temporal_2022_2026,temporal_weighted,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.09778726964679851,-0.24409227982597081,28.749122719086003,20.103950570499197,39.986495867087115,True,
+G,temporal_2022_2026,direct_global,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.6459397172514694,-0.6564914633673824,35.2024154555604,25.473288793695374,50.488925771904704,,
+G,temporal_2022_2026,spatial_zone_features,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.6940620508167499,-0.6555006948728617,35.713314516770055,26.3529497985982,50.81230047269675,,
+G,temporal_2022_2026,spatial_baseline_residual,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,temporal_2022_2026,spatial_baseline_residual_zone,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,temporal_2022_2026,temporal_weighted,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.5852930937263483,-0.5338318870772327,34.547791141874086,25.332999435641838,48.01353323858319,True,
+G,temporal_2022_2026,two_stage_high_pollution,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-1.1565336835443087,-0.8396451059273295,40.29430083676744,31.08441166984115,58.457459178753055,,124.38699999999994
+G,temporal_2022_2026,direct_global,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.08714612127247578,-0.23448598703225043,28.60944691205976,21.40030712561482,41.609107004342974,,
+G,temporal_2022_2026,spatial_zone_features,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.0953815116940393,-0.2578628206773621,28.717604151533816,21.224229509245696,41.91805842927441,,
+G,temporal_2022_2026,spatial_baseline_residual,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+G,temporal_2022_2026,spatial_baseline_residual_zone,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+G,temporal_2022_2026,temporal_weighted,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.21722614500092075,-0.24377049019233232,30.27269864328528,21.67643898738125,40.95815232900937,True,
+G,temporal_2022_2026,two_stage_high_pollution,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.748897264288765,-0.6984358778184514,36.28671475454428,29.808763480304595,55.16597810312858,,124.38699999999994
+G,temporal_2022_2026,direct_global,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.02290757962482326,-0.17002464372604842,27.751323491473375,19.21588392101139,38.10385620647811,,
+G,temporal_2022_2026,spatial_zone_features,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.12374911849463577,-0.20175101066896328,29.087083900575553,19.231671245513052,37.689593374422785,,
+G,temporal_2022_2026,spatial_baseline_residual,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,temporal_2022_2026,spatial_baseline_residual_zone,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+G,temporal_2022_2026,temporal_weighted,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.14992854273062006,-0.2209823314166468,29.423946925878226,19.6202455504835,38.25771468974693,False,
+H,temporal_2022_2026,direct_global,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.14398178040347753,-0.18798258454213101,0.2522061226309146,0.13383334468141178,232.28418515042563,,
+H,temporal_2022_2026,spatial_zone_features,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.21040151857978606,-0.2660279169649067,0.25942438837447107,0.1395215796717761,245.99189962578194,,
+H,temporal_2022_2026,spatial_baseline_residual,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,temporal_2022_2026,spatial_baseline_residual_zone,RF,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,temporal_2022_2026,temporal_weighted,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.2455918177734957,-0.2916287139654934,0.263168524129016,0.13706054838980125,230.64502997878392,True,
+H,temporal_2022_2026,two_stage_high_pollution,RF,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.15386380462170823,-0.20450235017224094,0.2532930926644245,0.14266021886702698,277.1745612481911,,0.16
+H,temporal_2022_2026,direct_global,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.11222913222024689,-0.15866300495000862,0.24868134332214717,0.13514964618021225,255.0205933145004,,
+H,temporal_2022_2026,spatial_zone_features,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.10212125059804289,-0.133689521533773,0.2475487625582609,0.13163896677020992,230.6433182073193,,
+H,temporal_2022_2026,spatial_baseline_residual,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,temporal_2022_2026,spatial_baseline_residual_zone,ExtraTrees,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,temporal_2022_2026,temporal_weighted,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.14981680843976752,-0.1991302719264132,0.2528485096131276,0.1353299476186592,249.29367103741998,True,
+H,temporal_2022_2026,two_stage_high_pollution,ExtraTrees,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.2717131183859498,-0.3400062127940351,0.26591365973478315,0.1515620423301773,313.011051345384,,0.16
+H,temporal_2022_2026,direct_global,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.7278837100596598,-0.8125355899071109,0.30995834025279057,0.1664699443171042,296.9285458009321,,
+H,temporal_2022_2026,spatial_zone_features,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.7463141635464761,-0.8215738577525646,0.3116070391511128,0.16547936673770125,292.9147243126661,,
+H,temporal_2022_2026,spatial_baseline_residual,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,temporal_2022_2026,spatial_baseline_residual_zone,HistGBR,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,temporal_2022_2026,temporal_weighted,HistGBR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-1.0754998406071845,-1.1143561803038988,0.33970929007565126,0.18572873246227972,367.21539975337157,True,
+H,temporal_2022_2026,direct_global,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.3668646348369149,-0.4312829500378754,0.2756822629819856,0.1488659739164704,265.50500431960825,,
+H,temporal_2022_2026,spatial_zone_features,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.3821143708188246,-0.4509188204809438,0.2772158532985424,0.15038674984056905,274.10095016965903,,
+H,temporal_2022_2026,spatial_baseline_residual,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,temporal_2022_2026,spatial_baseline_residual_zone,ElasticNet,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,temporal_2022_2026,temporal_weighted,ElasticNet,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.33944060733948533,-0.40247581145104316,0.2729026809557128,0.14956675061676056,272.6658213030572,True,
+H,temporal_2022_2026,direct_global,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.4987456556233212,-0.5574921891115345,0.288675575423554,0.15469827958667345,282.8413194479538,,
+H,temporal_2022_2026,spatial_zone_features,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.5548848591416955,-0.6315151026742136,0.29403240003843084,0.16110278918776794,301.31313206695086,,
+H,temporal_2022_2026,spatial_baseline_residual,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,temporal_2022_2026,spatial_baseline_residual_zone,PLSR,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,temporal_2022_2026,temporal_weighted,PLSR,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.4987456556233212,-0.5574921891115345,0.288675575423554,0.15469827958667345,282.8413194479538,False,
+H,temporal_2022_2026,direct_global,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.02548532188585506,-0.028110247525591214,0.23878706406460304,0.12149682659874944,223.71415421374257,,
+H,temporal_2022_2026,spatial_zone_features,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.01790454665748764,-0.01492810343396811,0.2379028247448053,0.12067715579534279,221.10954480086792,,
+H,temporal_2022_2026,spatial_baseline_residual,XGBoost,"failed: [21:58:54] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+H,temporal_2022_2026,spatial_baseline_residual_zone,XGBoost,"failed: [21:58:54] /__w/xgboost/xgboost/src/data/data.cc:568: Check failed: valid: Label contains NaN, infinity or a value too large.
+Stack trace:
+  [bt] (0) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x2c1a8c) [0x7fbc932c1a8c]
+  [bt] (1) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b06b9) [0x7fbc935b06b9]
+  [bt] (2) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(+0x5b1655) [0x7fbc935b1655]
+  [bt] (3) /home/kaixin/code/soil/.venv/lib/python3.12/site-packages/xgboost/lib/libxgboost.so(XGDMatrixSetInfoFromInterface+0x10b) [0x7fbc931c9cab]
+  [bt] (4) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x650052) [0x7fbdec641052]
+  [bt] (5) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64ed61) [0x7fbdec63fd61]
+  [bt] (6) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x64e96e) [0x7fbdec63f96e]
+  [bt] (7) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bdeac) [0x7fbdec2aeeac]
+  [bt] (8) /home/kaixin/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/bin/../lib/libpython3.12.so.1.0(+0x2bda3c) [0x7fbdec2aea3c]
+
+",,,,,,,,,,,,,
+H,temporal_2022_2026,temporal_weighted,XGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.07619012892031929,-0.10560558741897585,0.24461921812087722,0.1263417810679359,225.76631152399074,True,
+H,temporal_2022_2026,direct_global,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.13054475465240523,-0.1695488359535875,0.2507205612051698,0.13321671377791924,241.4385893274435,,
+H,temporal_2022_2026,spatial_zone_features,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.1328375288096728,-0.1715044778468151,0.2509746663459682,0.12971540444204957,231.43981653904834,,
+H,temporal_2022_2026,spatial_baseline_residual,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,temporal_2022_2026,spatial_baseline_residual_zone,LightGBM,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,temporal_2022_2026,temporal_weighted,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.3906889599419867,-0.4874527669531823,0.2780744424130632,0.15112156647839012,270.9446210392263,True,
+H,temporal_2022_2026,two_stage_high_pollution,LightGBM,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.008101882492918211,-0.021326299912060254,0.23675452290895513,0.13197322139476322,265.2244551832379,,0.16
+H,temporal_2022_2026,direct_global,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.011911747253158689,0.021580148809103306,0.2343926232726224,0.11907605984492378,213.07050838195912,,
+H,temporal_2022_2026,spatial_zone_features,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,0.0006493943830438997,0.006158215360316133,0.23572465650201016,0.12152563888947011,215.2993363035081,,
+H,temporal_2022_2026,spatial_baseline_residual,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+H,temporal_2022_2026,spatial_baseline_residual_zone,CatBoost,failed: catboost/libs/metrics/metric.cpp:7032: metric/loss-function RMSE does not allow nan values in target data,,,,,,,,,,,,,
+H,temporal_2022_2026,temporal_weighted,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.06848003055678342,-0.0886760506548463,0.24374138605791457,0.1285822035882608,217.3071864913078,True,
+H,temporal_2022_2026,two_stage_high_pollution,CatBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.06784728155117103,-0.10336537036921167,0.2436692041007623,0.13875009845069458,270.58480797591756,,0.16
+H,temporal_2022_2026,direct_global,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.09250756798410165,-0.11885037784006092,0.24646672743890655,0.12490616626268991,213.16740399731273,,
+H,temporal_2022_2026,spatial_zone_features,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.10630517599051492,-0.14376517012885914,0.24801819568399108,0.1280299175076264,225.23548408002029,,
+H,temporal_2022_2026,spatial_baseline_residual,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,temporal_2022_2026,spatial_baseline_residual_zone,NGBoost,failed: Input y contains NaN.,,,,,,,,,,,,,
+H,temporal_2022_2026,temporal_weighted,NGBoost,ok,938.0,34.0,2000.0,2021.0,2022.0,2026.0,-0.0879784771478338,-0.11247509521917509,0.2459553215988303,0.12439633780651294,212.20834409412942,False,

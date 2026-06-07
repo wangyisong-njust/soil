@@ -1,0 +1,9 @@
+﻿target,model_description,source,method,model,test_protocol,n_train,n_test,r2,rmse,mae,mape,future_alignment_status,future_implementation,fusion_n_members,distribution_rule
+A,spatial_quantile_baseline: grid_spatial_quantile/Grid6_Q90,spatial_quantile_baseline,grid_spatial_quantile,Grid6_Q90,temporal_2022_2026,938,34,0.6800,10.8646,7.4576,80.3602,documented_fallback,fallback::LightGBM,0,
+B,quantile_risk_gate: risk_gated_quantile/GateQ90_P90_pow1,quantile_risk_gate,risk_gated_quantile,GateQ90_P90_pow1,temporal_2022_2026,938,34,0.4526,1.5216,0.6897,209.5541,documented_fallback,fallback::ElasticNet,0,
+C,spatial_quantile_baseline: knn_spatial_quantile/KNN12_Q20,spatial_quantile_baseline,knn_spatial_quantile,KNN12_Q20,temporal_2022_2026,938,34,0.1409,31.5328,18.4638,42.5612,documented_fallback,fallback::RF,0,
+D,spatial_quantile_baseline: grid_spatial_quantile/Grid10_Q75,spatial_quantile_baseline,grid_spatial_quantile,Grid10_Q75,temporal_2022_2026,938,34,0.3695,40.0182,17.2896,36.6441,documented_fallback,fallback::PLSR,0,
+E,external_geo_terrain_covariates: external_geo_terrain/HistGBR_raw,external_geo_terrain_covariates,external_geo_terrain,HistGBR_raw,temporal_2022_2026,938,34,0.6367,14.6680,8.7518,26.9456,exact_publication_model,registry::HistGBR_raw,0,
+F,causal_history_memory: causal_history_ml/LightGBM,causal_history_memory,causal_history_ml,LightGBM,temporal_2022_2026,938,34,0.3414,65.2850,39.7116,30.9393,documented_fallback,fallback::HistGBR_raw,0,
+G,spatial_quantile_baseline: knn_spatial_quantile/KNN20_Q45,spatial_quantile_baseline,knn_spatial_quantile,KNN20_Q45,temporal_2022_2026,938,34,0.4941,19.5170,14.3481,31.0369,documented_fallback,fallback::CatBoost,0,
+H,spatial_quantile_baseline: knn_spatial_quantile/KNN80_Q85,spatial_quantile_baseline,knn_spatial_quantile,KNN80_Q85,temporal_2022_2026,938,34,0.0793,0.2263,0.1185,238.2160,documented_fallback,fallback::NGBoost,0,

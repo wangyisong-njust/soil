@@ -1,0 +1,9 @@
+{
+  "status": "review",
+  "n_targets": 8,
+  "n_publication_equals_best_eligible": 2,
+  "n_excluded_upper_bound_better_than_publication": 8,
+  "mean_publication_r2": 0.39929246299745225,
+  "mean_best_excluded_r2": 0.8999767546740471,
+  "max_gap_to_excluded_upper_bound": 0.6381498167023614
+}

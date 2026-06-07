@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "data_file": "data/processed/soil_heavy_metals_geology.csv",
+  "n_targets": 8,
+  "outputs": {
+    "variable_groups": "tables/manuscript_table1_variable_groups.csv",
+    "variable_dictionary": "tables/manuscript_table1_variable_dictionary.csv",
+    "performance": "tables/manuscript_table2_publication_model_performance.csv",
+    "uncertainty": "tables/manuscript_table3_future_prediction_uncertainty.csv",
+    "risk": "tables/manuscript_table4_future_exceedance_risk.csv",
+    "feature_groups": "tables/manuscript_table5_feature_group_importance.csv"
+  },
+  "report": "docs/manuscript_tables_report.md"
+}

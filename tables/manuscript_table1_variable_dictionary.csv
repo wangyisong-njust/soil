@@ -1,0 +1,121 @@
+﻿variable,role,variable_group,in_modeling_data,missing,non_numeric,min,median,max,description
+lon,predictor,Spatial/time base variable,True,0,0,80.5515,116.6,134.115,Sampling longitude.
+lat,predictor,Spatial/time base variable,True,0,0,19.0649,32.7325,51.4183,Sampling latitude.
+year,predictor,Spatial/time base variable,True,0,0,2000.0,2013.0,2026.0,Sampling year.
+a,predictor,Original driver variable,True,0,0,4.69275,6.58,8.83,Original driver variable supplied in the modeling data.
+b,predictor,Original driver variable,True,0,0,0.53855,2.3,4.55945,Original driver variable supplied in the modeling data.
+c,predictor,Original driver variable,True,0,0,5.671,12.6,18.8145,Original driver variable supplied in the modeling data.
+d,predictor,Original driver variable,True,0,0,8.1,24.6,44.8145,Original driver variable supplied in the modeling data.
+e,predictor,Original driver variable,True,0,0,20.013,37.7,59.0435,Original driver variable supplied in the modeling data.
+f,predictor,Original driver variable,True,0,0,13.771,33.4,69.3435,Original driver variable supplied in the modeling data.
+g,predictor,Original driver variable,True,0,0,0.571,15.55,25.629,Original driver variable supplied in the modeling data.
+h,predictor,Original driver variable,True,0,0,226.855,1243.0,1695.72,Original driver variable supplied in the modeling data.
+i,predictor,Original driver variable,True,0,0,0.0,176.0,2186.22,Original driver variable supplied in the modeling data.
+j,predictor,Original driver variable,True,0,0,0.3,2.0,10.3,Original driver variable supplied in the modeling data.
+k,predictor,Original driver variable,True,0,0,0.03,0.7175,0.88,Original driver variable supplied in the modeling data.
+l,predictor,Original driver variable,True,0,0,1.7855,17.6,28.2145,Original driver variable supplied in the modeling data.
+m,predictor,Original driver variable,True,0,0,1.0,285.0,5247.24,Original driver variable supplied in the modeling data.
+n,predictor,Original driver variable,True,0,0,0.25855,10.475,65.0,Original driver variable supplied in the modeling data.
+o,predictor,Original driver variable,True,0,0,0.2142,2.22,12.0,Original driver variable supplied in the modeling data.
+p,predictor,Original driver variable,True,0,0,3.0,40.8,113.062,Original driver variable supplied in the modeling data.
+q,predictor,Original driver variable,True,0,0,0.4,11.0,68.458,Original driver variable supplied in the modeling data.
+A,response,Heavy metal target,True,0,0,0.87,11.71,412.0,Heavy metal concentration response variable.
+B,response,Heavy metal target,True,0,0,0.02,0.22,77.89,Heavy metal concentration response variable.
+C,response,Heavy metal target,True,0,0,1.99,50.65,516.1,Heavy metal concentration response variable.
+D,response,Heavy metal target,True,0,0,2.84,29.4,680.0,Heavy metal concentration response variable.
+E,response,Heavy metal target,True,0,0,5.07,30.815,767.0,Heavy metal concentration response variable.
+F,response,Heavy metal target,True,0,0,1.0,31.6165,7243.05,Heavy metal concentration response variable.
+G,response,Heavy metal target,True,0,0,2.31,75.325,8798.67,Heavy metal concentration response variable.
+H,response,Heavy metal target,True,0,0,0.005,0.09,6.22,Heavy metal concentration response variable.
+year_offset,predictor,Engineered spatiotemporal feature,False,,,,,,Temporal trend feature centered on the training period
+year_offset_sq,predictor,Engineered spatiotemporal feature,False,,,,,,Quadratic temporal trend feature
+lon_lat,predictor,Engineered spatiotemporal feature,False,,,,,,Longitude-latitude interaction feature
+lon_sq,predictor,Engineered spatiotemporal feature,False,,,,,,Longitude squared feature
+lat_sq,predictor,Engineered spatiotemporal feature,False,,,,,,Latitude squared feature
+target_spatial_mean,predictor,Publication target spatial lag,False,,,,,,Training-period neighboring target mean feature
+target_spatial_idw,predictor,Publication target spatial lag,False,,,,,,Training-period inverse-distance weighted target feature
+target_spatial_min_dist,predictor,Publication target spatial lag,False,,,,,,Distance to nearest training-period target observation
+sg_bdod_0_5cm,predictor,Public external covariate,True,,,,,,SoilGrids soil property covariates
+sg_cec_0_5cm,predictor,Public external covariate,True,,,,,,SoilGrids soil property covariates
+sg_clay_0_5cm,predictor,Public external covariate,True,,,,,,SoilGrids soil property covariates
+sg_nitrogen_0_5cm,predictor,Public external covariate,True,,,,,,SoilGrids soil property covariates
+sg_phh2o_0_5cm,predictor,Public external covariate,True,,,,,,SoilGrids soil property covariates
+sg_sand_0_5cm,predictor,Public external covariate,True,,,,,,SoilGrids soil property covariates
+sg_silt_0_5cm,predictor,Public external covariate,True,,,,,,SoilGrids soil property covariates
+sg_soc_0_5cm,predictor,Public external covariate,True,,,,,,SoilGrids soil property covariates
+np_allsky_sfc_sw_dwn_annual_mean,predictor,Public external covariate,True,,,,,,NASA POWER climate covariates
+np_prectotcorr_annual_sum,predictor,Public external covariate,True,,,,,,NASA POWER climate covariates
+np_t2m_annual_mean,predictor,Public external covariate,True,,,,,,NASA POWER climate covariates
+np_t2m_max_annual_mean,predictor,Public external covariate,True,,,,,,NASA POWER climate covariates
+np_t2m_min_annual_mean,predictor,Public external covariate,True,,,,,,NASA POWER climate covariates
+np_ws2m_annual_mean,predictor,Public external covariate,True,,,,,,NASA POWER climate covariates
+osm_activity_poi_count_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_agricultural_landuse_area_frac_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_agricultural_landuse_area_km2_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_agricultural_landuse_count_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_built_landuse_area_frac_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_built_landuse_area_km2_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_built_landuse_count_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_commercial_landuse_area_frac_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_commercial_landuse_area_km2_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_commercial_landuse_count_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_green_landuse_area_frac_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_green_landuse_area_km2_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_green_landuse_count_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_industrial_count_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_industrial_landuse_area_frac_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_industrial_landuse_area_km2_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_industrial_landuse_count_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_industrial_or_mining_count_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_mining_count_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_nearest_activity_poi_km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_nearest_agricultural_landuse_km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_nearest_built_landuse_km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_nearest_commercial_landuse_km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_nearest_green_landuse_km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_nearest_industrial_km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_nearest_industrial_landuse_km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_nearest_industrial_or_mining_km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_nearest_mining_km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_nearest_pollution_poi_km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_nearest_railway_km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_nearest_residential_landuse_km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_nearest_traffic_facility_km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_nearest_transport_facility_km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_pollution_poi_count_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_railway_length_km_per_km2_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_residential_landuse_area_frac_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_residential_landuse_area_km2_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_residential_landuse_count_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_traffic_facility_count_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+osm_transport_facility_count_10km,predictor,Public external covariate,True,,,,,,OpenStreetMap human activity covariates
+viirs_ntl,predictor,Public external covariate,True,,,,,,VIIRS night-time light covariates
+viirs_ntl_2021,predictor,Public external covariate,True,,,,,,VIIRS night-time light covariates
+viirs_ntl_2021_log1p,predictor,Public external covariate,True,,,,,,VIIRS night-time light covariates
+viirs_ntl_change_2000_2021,predictor,Public external covariate,True,,,,,,VIIRS night-time light covariates
+viirs_ntl_log1p,predictor,Public external covariate,True,,,,,,VIIRS night-time light covariates
+viirs_year_used,predictor,Public external covariate,True,,,,,,VIIRS night-time light covariates
+ghsl_built_nres_m2_2020,predictor,Public external covariate,True,,,,,,GHSL built-up and population covariates
+ghsl_built_nres_m2_2020_log1p,predictor,Public external covariate,True,,,,,,GHSL built-up and population covariates
+ghsl_built_nres_share_2020,predictor,Public external covariate,True,,,,,,GHSL built-up and population covariates
+ghsl_built_res_m2_2020,predictor,Public external covariate,True,,,,,,GHSL built-up and population covariates
+ghsl_built_res_m2_2020_log1p,predictor,Public external covariate,True,,,,,,GHSL built-up and population covariates
+ghsl_built_surface_m2_2020,predictor,Public external covariate,True,,,,,,GHSL built-up and population covariates
+ghsl_built_surface_m2_2020_log1p,predictor,Public external covariate,True,,,,,,GHSL built-up and population covariates
+ghsl_pop_2020,predictor,Public external covariate,True,,,,,,GHSL built-up and population covariates
+ghsl_pop_2020_log1p,predictor,Public external covariate,True,,,,,,GHSL built-up and population covariates
+wc_class_2021,predictor,Public external covariate,True,,,,,,ESA WorldCover land-cover covariates
+wc_is_bare,predictor,Public external covariate,True,,,,,,ESA WorldCover land-cover covariates
+wc_is_built,predictor,Public external covariate,True,,,,,,ESA WorldCover land-cover covariates
+wc_is_built_or_cropland,predictor,Public external covariate,True,,,,,,ESA WorldCover land-cover covariates
+wc_is_cropland,predictor,Public external covariate,True,,,,,,ESA WorldCover land-cover covariates
+wc_is_grass,predictor,Public external covariate,True,,,,,,ESA WorldCover land-cover covariates
+wc_is_mangrove,predictor,Public external covariate,True,,,,,,ESA WorldCover land-cover covariates
+wc_is_moss_lichen,predictor,Public external covariate,True,,,,,,ESA WorldCover land-cover covariates
+wc_is_natural,predictor,Public external covariate,True,,,,,,ESA WorldCover land-cover covariates
+wc_is_shrub,predictor,Public external covariate,True,,,,,,ESA WorldCover land-cover covariates
+wc_is_snow_ice,predictor,Public external covariate,True,,,,,,ESA WorldCover land-cover covariates
+wc_is_tree,predictor,Public external covariate,True,,,,,,ESA WorldCover land-cover covariates
+wc_is_vegetated,predictor,Public external covariate,True,,,,,,ESA WorldCover land-cover covariates
+wc_is_water,predictor,Public external covariate,True,,,,,,ESA WorldCover land-cover covariates
+wc_is_wetland,predictor,Public external covariate,True,,,,,,ESA WorldCover land-cover covariates

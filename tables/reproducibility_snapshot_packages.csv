@@ -1,0 +1,15 @@
+﻿package,version,status
+pandas,3.0.3,ok
+numpy,2.4.6,ok
+scipy,1.17.1,ok
+scikit-learn,1.8.0,ok
+matplotlib,3.10.9,ok
+xgboost,3.2.0,ok
+lightgbm,4.6.0,ok
+catboost,1.2.10,ok
+ngboost,0.5.10,ok
+shap,0.52.0,ok
+statsmodels,0.14.6,ok
+torch,2.12.0+cpu,ok
+rasterio,1.5.0,ok
+requests,2.34.2,ok

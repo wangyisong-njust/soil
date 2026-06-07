@@ -1,0 +1,29 @@
+﻿check,status,detail
+target column definition,ok,"Config defines 8 unique target columns: A, B, C, D, E, F, G, H"
+target feature overlap,ok,No configured target column is listed in base_feature_columns.
+spatiotemporal base features,ok,"Base features include lon, lat and year."
+processed data columns,ok,"data/processed/soil_heavy_metals_geology.csv contains all target and base feature columns; rows=972, columns=132."
+processed data year span,ok,Observed year span is 2000-2026.
+publication target coverage,ok,Publication metrics contain exactly one row for each configured target.
+publication protocol,ok,All publication rows use temporal_2022_2026.
+publication source exclusion,ok,Publication table does not contain test-selected exploration sources.
+publication source allowlist,ok,All publication sources are in the reproducible-source allowlist.
+publication metric columns,ok,"R2, RMSE, MAE and MAPE are present without missing values."
+publication model card coverage,ok,Publication model cards contain exactly one row for each configured target.
+publication model card future alignment,warning,Exact publication future alignment cards: 1/8.
+publication model card fusion members,ok,No publication-validation-fusion target is selected in the current publication table.
+candidate exploration separation,ok,"Candidate table keeps exploration sources for sensitivity analysis, while publication selection excludes: conservative_baseline, nnls_stack_exploration, spatial_model_blend_exploration, temporal_calibration_exploration, validation_transfer_test_selected_exploration"
+publication grid coverage,ok,Publication prediction grid has 34 rows per target and 272 total rows.
+publication grid years,ok,Publication grid years are 2022-2026.
+publication grid values,ok,Publication grid observed and predicted values are complete.
+future prediction columns,ok,Future file contains prediction fields only and no observed target column.
+future target-year coverage,ok,Future predictions cover all 8 targets and years 2027-2035.
+future prediction values,ok,Future predicted values are numeric and complete.
+future publication alignment metadata,warning,"Future predictions use publication-aligned file with status counts by target: {'documented_fallback': 7, 'exact_publication_model': 1}. Documented fallback targets: A, B, C, D, F, G, H."
+future interval coverage,ok,Publication-aligned future intervals cover all targets and years; rows=67824.
+future interval publication alignment,warning,"Interval file alignment status counts by target: {'documented_fallback': 7, 'exact_publication_model': 1}."
+future interval bounds,ok,Rows with upper < lower: 0.
+future exceedance probability coverage,ok,"Probability table covers all targets, years and q90/q95; rows=135648."
+future exceedance probability values,ok,"Rows outside [0, 1] or missing: 0."
+future exceedance map summary coverage,ok,"Map summary covers C/F/G q90/q95 years 2027, 2030 and 2035; rows=18."
+target spatial lag implementation,ok,Training rows use leave-one-out target lag; test and future rows only reference training/observed-period target values.

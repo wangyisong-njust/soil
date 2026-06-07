@@ -1,0 +1,451 @@
+[
+  {
+    "strategy": "basic",
+    "n_input": 977,
+    "n_output": 977,
+    "variant_csv": "data/processed/cleaning_variants/soil_heavy_metals_basic.csv"
+  },
+  {
+    "strategy": "quality",
+    "n_input": 977,
+    "duplicate_decimals": 6,
+    "driver_winsor_limits": [
+      0.005,
+      0.995
+    ],
+    "n_required_missing_rows_removed": 0,
+    "n_coordinate_outside_broad_china_bounds_removed": 0,
+    "n_duplicate_rows_involved": 10,
+    "n_duplicate_groups_aggregated": 5,
+    "n_after_duplicate_aggregation": 972,
+    "feature_missing_imputed_by_median": {
+      "q": 1
+    },
+    "driver_winsorized": {
+      "a": {
+        "low": 4.69275,
+        "high": 8.83,
+        "n_low_capped": 5,
+        "n_high_capped": 3
+      },
+      "b": {
+        "low": 0.5385500000000001,
+        "high": 4.559449999999993,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "c": {
+        "low": 5.671,
+        "high": 18.8145,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "d": {
+        "low": 8.1,
+        "high": 44.814499999999995,
+        "n_low_capped": 3,
+        "n_high_capped": 5
+      },
+      "e": {
+        "low": 20.013,
+        "high": 59.043499999999995,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "f": {
+        "low": 13.771,
+        "high": 69.34349999999999,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "g": {
+        "low": 0.5710000000000001,
+        "high": 25.628999999999998,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "h": {
+        "low": 226.855,
+        "high": 1695.725,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "i": {
+        "low": 0.0,
+        "high": 2186.224999999998,
+        "n_low_capped": 0,
+        "n_high_capped": 5
+      },
+      "j": {
+        "low": 0.3,
+        "high": 10.3,
+        "n_low_capped": 4,
+        "n_high_capped": 4
+      },
+      "l": {
+        "low": 1.7855,
+        "high": 28.214499999999997,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "m": {
+        "low": 1.0,
+        "high": 5247.2449999999935,
+        "n_low_capped": 0,
+        "n_high_capped": 5
+      },
+      "n": {
+        "low": 0.25855,
+        "high": 65.0,
+        "n_low_capped": 5,
+        "n_high_capped": 0
+      },
+      "o": {
+        "low": 0.21420000000000003,
+        "high": 12.0,
+        "n_low_capped": 5,
+        "n_high_capped": 0
+      },
+      "p": {
+        "low": 3.0,
+        "high": 113.06249999999996,
+        "n_low_capped": 4,
+        "n_high_capped": 5
+      },
+      "q": {
+        "low": 0.4,
+        "high": 68.458,
+        "n_low_capped": 2,
+        "n_high_capped": 5
+      }
+    },
+    "n_target_outlier_rows_removed": 0,
+    "n_output": 972,
+    "n_removed_total": 5,
+    "variant_csv": "data/processed/cleaning_variants/soil_heavy_metals_quality.csv"
+  },
+  {
+    "strategy": "quality_target_mild",
+    "n_input": 977,
+    "duplicate_decimals": 6,
+    "driver_winsor_limits": [
+      0.005,
+      0.995
+    ],
+    "n_required_missing_rows_removed": 0,
+    "n_coordinate_outside_broad_china_bounds_removed": 0,
+    "n_duplicate_rows_involved": 10,
+    "n_duplicate_groups_aggregated": 5,
+    "n_after_duplicate_aggregation": 972,
+    "feature_missing_imputed_by_median": {
+      "q": 1
+    },
+    "driver_winsorized": {
+      "a": {
+        "low": 4.69275,
+        "high": 8.83,
+        "n_low_capped": 5,
+        "n_high_capped": 3
+      },
+      "b": {
+        "low": 0.5385500000000001,
+        "high": 4.559449999999993,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "c": {
+        "low": 5.671,
+        "high": 18.8145,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "d": {
+        "low": 8.1,
+        "high": 44.814499999999995,
+        "n_low_capped": 3,
+        "n_high_capped": 5
+      },
+      "e": {
+        "low": 20.013,
+        "high": 59.043499999999995,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "f": {
+        "low": 13.771,
+        "high": 69.34349999999999,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "g": {
+        "low": 0.5710000000000001,
+        "high": 25.628999999999998,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "h": {
+        "low": 226.855,
+        "high": 1695.725,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "i": {
+        "low": 0.0,
+        "high": 2186.224999999998,
+        "n_low_capped": 0,
+        "n_high_capped": 5
+      },
+      "j": {
+        "low": 0.3,
+        "high": 10.3,
+        "n_low_capped": 4,
+        "n_high_capped": 4
+      },
+      "l": {
+        "low": 1.7855,
+        "high": 28.214499999999997,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "m": {
+        "low": 1.0,
+        "high": 5247.2449999999935,
+        "n_low_capped": 0,
+        "n_high_capped": 5
+      },
+      "n": {
+        "low": 0.25855,
+        "high": 65.0,
+        "n_low_capped": 5,
+        "n_high_capped": 0
+      },
+      "o": {
+        "low": 0.21420000000000003,
+        "high": 12.0,
+        "n_low_capped": 5,
+        "n_high_capped": 0
+      },
+      "p": {
+        "low": 3.0,
+        "high": 113.06249999999996,
+        "n_low_capped": 4,
+        "n_high_capped": 5
+      },
+      "q": {
+        "low": 0.4,
+        "high": 68.458,
+        "n_low_capped": 2,
+        "n_high_capped": 5
+      }
+    },
+    "n_target_outlier_rows_removed": 158,
+    "target_log_iqr_multiplier": 3.0,
+    "target_outlier_rules": {
+      "A": {
+        "log_low": 0.5322581990994983,
+        "log_high": 4.58954272830691,
+        "n_removed_if_applied_alone": 8
+      },
+      "B": {
+        "log_low": -0.9052439528912394,
+        "log_high": 1.501439315848467,
+        "n_removed_if_applied_alone": 59
+      },
+      "C": {
+        "log_low": 1.6032844953600769,
+        "log_high": 6.2108324241354245,
+        "n_removed_if_applied_alone": 3
+      },
+      "D": {
+        "log_low": 1.74431597329957,
+        "log_high": 5.1385301165335076,
+        "n_removed_if_applied_alone": 19
+      },
+      "E": {
+        "log_low": 2.631117214354477,
+        "log_high": 4.291854591708812,
+        "n_removed_if_applied_alone": 30
+      },
+      "F": {
+        "log_low": -0.3013468237910253,
+        "log_high": 7.7770485537335805,
+        "n_removed_if_applied_alone": 2
+      },
+      "G": {
+        "log_low": 2.946875926048657,
+        "log_high": 5.8137593004996635,
+        "n_removed_if_applied_alone": 38
+      },
+      "H": {
+        "log_low": -0.10675894525055454,
+        "log_high": 0.27995621109545593,
+        "n_removed_if_applied_alone": 56
+      }
+    },
+    "n_output": 814,
+    "n_removed_total": 163,
+    "variant_csv": "data/processed/cleaning_variants/soil_heavy_metals_quality_target_mild.csv"
+  },
+  {
+    "strategy": "quality_target_strict",
+    "n_input": 977,
+    "duplicate_decimals": 6,
+    "driver_winsor_limits": [
+      0.005,
+      0.995
+    ],
+    "n_required_missing_rows_removed": 0,
+    "n_coordinate_outside_broad_china_bounds_removed": 0,
+    "n_duplicate_rows_involved": 10,
+    "n_duplicate_groups_aggregated": 5,
+    "n_after_duplicate_aggregation": 972,
+    "feature_missing_imputed_by_median": {
+      "q": 1
+    },
+    "driver_winsorized": {
+      "a": {
+        "low": 4.69275,
+        "high": 8.83,
+        "n_low_capped": 5,
+        "n_high_capped": 3
+      },
+      "b": {
+        "low": 0.5385500000000001,
+        "high": 4.559449999999993,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "c": {
+        "low": 5.671,
+        "high": 18.8145,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "d": {
+        "low": 8.1,
+        "high": 44.814499999999995,
+        "n_low_capped": 3,
+        "n_high_capped": 5
+      },
+      "e": {
+        "low": 20.013,
+        "high": 59.043499999999995,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "f": {
+        "low": 13.771,
+        "high": 69.34349999999999,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "g": {
+        "low": 0.5710000000000001,
+        "high": 25.628999999999998,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "h": {
+        "low": 226.855,
+        "high": 1695.725,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "i": {
+        "low": 0.0,
+        "high": 2186.224999999998,
+        "n_low_capped": 0,
+        "n_high_capped": 5
+      },
+      "j": {
+        "low": 0.3,
+        "high": 10.3,
+        "n_low_capped": 4,
+        "n_high_capped": 4
+      },
+      "l": {
+        "low": 1.7855,
+        "high": 28.214499999999997,
+        "n_low_capped": 5,
+        "n_high_capped": 5
+      },
+      "m": {
+        "low": 1.0,
+        "high": 5247.2449999999935,
+        "n_low_capped": 0,
+        "n_high_capped": 5
+      },
+      "n": {
+        "low": 0.25855,
+        "high": 65.0,
+        "n_low_capped": 5,
+        "n_high_capped": 0
+      },
+      "o": {
+        "low": 0.21420000000000003,
+        "high": 12.0,
+        "n_low_capped": 5,
+        "n_high_capped": 0
+      },
+      "p": {
+        "low": 3.0,
+        "high": 113.06249999999996,
+        "n_low_capped": 4,
+        "n_high_capped": 5
+      },
+      "q": {
+        "low": 0.4,
+        "high": 68.458,
+        "n_low_capped": 2,
+        "n_high_capped": 5
+      }
+    },
+    "n_target_outlier_rows_removed": 190,
+    "target_log_iqr_multiplier": 2.5,
+    "target_outlier_rules": {
+      "A": {
+        "log_low": 0.8220642369000277,
+        "log_high": 4.29973669050638,
+        "n_removed_if_applied_alone": 15
+      },
+      "B": {
+        "log_low": -0.7333380051241175,
+        "log_high": 1.329533368081345,
+        "n_removed_if_applied_alone": 65
+      },
+      "C": {
+        "log_low": 1.9323950617011731,
+        "log_high": 5.881721857794329,
+        "n_removed_if_applied_alone": 7
+      },
+      "D": {
+        "log_low": 1.9867598406734228,
+        "log_high": 4.896086249159655,
+        "n_removed_if_applied_alone": 28
+      },
+      "E": {
+        "log_low": 2.7497413127369295,
+        "log_high": 4.1732304933263595,
+        "n_removed_if_applied_alone": 42
+      },
+      "F": {
+        "log_low": 0.27568141746073227,
+        "log_high": 7.200020312481823,
+        "n_removed_if_applied_alone": 4
+      },
+      "G": {
+        "log_low": 3.1516533099380144,
+        "log_high": 5.608981916610306,
+        "n_removed_if_applied_alone": 50
+      },
+      "H": {
+        "log_low": -0.07913643408298238,
+        "log_high": 0.25233369992788374,
+        "n_removed_if_applied_alone": 67
+      }
+    },
+    "n_output": 782,
+    "n_removed_total": 195,
+    "variant_csv": "data/processed/cleaning_variants/soil_heavy_metals_quality_target_strict.csv"
+  }
+]

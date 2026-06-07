@@ -1,0 +1,10 @@
+{
+  "status": "warning",
+  "n_checks": 28,
+  "n_ok": 25,
+  "n_warning": 3,
+  "n_failed": 0,
+  "data_path": "data/processed/soil_heavy_metals_geology.csv",
+  "publication_metrics": "tables/publication_grade_recommended_metrics.csv",
+  "future_predictions": "results/future_predictions_publication_aligned_2027_2035.csv"
+}

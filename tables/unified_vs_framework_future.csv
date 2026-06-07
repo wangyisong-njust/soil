@@ -1,0 +1,9 @@
+﻿target,plain_pool_r2,plain_pool_model,framework_r2,framework_method,delta_r2
+A,0.4188,base/HistGBR_raw,0.68,grid_spatial_quantile,0.2612
+B,0.3662,external/LightGBM,0.4526,risk_gated_quantile,0.0864
+C,0.0139,external/XGBoost,0.1409,knn_spatial_quantile,0.127
+D,0.2949,external/LightGBM,0.3695,grid_spatial_quantile,0.0745
+E,0.6367,external/HistGBR_raw,0.6367,external_geo_terrain,0.0
+F,0.0445,external/LightGBM,0.3414,causal_history_ml,0.2969
+G,0.1131,base/PLSR,0.4941,knn_spatial_quantile,0.381
+H,0.0347,base/CatBoost_raw,0.0793,knn_spatial_quantile,0.0446

@@ -1,0 +1,151 @@
+#!/usr/bin/env python
+from __future__ import annotations
+
+import sys
+import warnings
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+from sklearn.linear_model import LinearRegression, Ridge
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "src"))
+sys.path.insert(0, str(ROOT / "scripts"))
+
+from soilmodel.config import target_columns
+from soilmodel.metrics import regression_metrics
+from soilmodel.paths import DOCS_DIR, RESULTS_DIR, TABLES_DIR, ensure_project_dirs, preferred_processed_data_path
+
+import run_spatial_model_blend_exploration as blend
+
+
+TOP_N_VALUES = [5, 10, 20, 30, 40, 50]
+
+
+def md_table(df: pd.DataFrame) -> str:
+    if df.empty:
+        return "_无记录。_"
+    text_df = df.astype(str)
+    lines = [
+        "| " + " | ".join(text_df.columns) + " |",
+        "| " + " | ".join(["---"] * len(text_df.columns)) + " |",
+    ]
+    for row in text_df.values.tolist():
+        lines.append("| " + " | ".join(row) + " |")
+    return "\n".join(lines)
+
+
+def load_canonical_predictions() -> pd.DataFrame:
+    data = pd.read_csv(preferred_processed_data_path())
+    data["year"] = data["year"].round().astype(int)
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", category=pd.errors.PerformanceWarning)
+        preds = pd.concat([blend.load_model_predictions(), blend.spatial_quantile_predictions(data)], ignore_index=True)
+    return blend.canonicalize_observed(preds, data)
+
+
+def main() -> None:
+    ensure_project_dirs()
+    preds = load_canonical_predictions()
+    rows: list[dict[str, object]] = []
+    pred_rows: list[pd.DataFrame] = []
+    coef_rows: list[dict[str, object]] = []
+    for target in target_columns():
+        x, y = blend.candidate_wide(preds, target)
+        scores = []
+        for col in x.columns:
+            metric = regression_metrics(y, x[col].to_numpy(dtype=float))
+            scores.append((metric["r2"], col))
+        ordered = [col for _, col in sorted(scores, reverse=True)]
+        best: dict[str, object] | None = None
+        for top_n in TOP_N_VALUES:
+            cols = ordered[:top_n]
+            x_part = x[cols].to_numpy(dtype=float)
+            models = {
+                "OLS": LinearRegression(),
+                "Ridge1e-3": Ridge(alpha=1e-3),
+                "Ridge1": Ridge(alpha=1.0),
+            }
+            for model_name, model in models.items():
+                model.fit(x_part, y)
+                pred = np.maximum(model.predict(x_part), 0.0)
+                metric = regression_metrics(y, pred)
+                if best is None or metric["r2"] > best["metric"]["r2"]:
+                    best = {
+                        "target": target,
+                        "model_name": model_name,
+                        "top_n": top_n,
+                        "cols": cols,
+                        "pred": pred,
+                        "metric": metric,
+                        "fitted_model": model,
+                    }
+        if best is None:
+            continue
+        rows.append(
+            {
+                "protocol": "temporal_2022_2026",
+                "target": target,
+                "method": "same_set_linear_stack_upper_bound",
+                "model": f"{best['model_name']}_top{best['top_n']}",
+                "n_train": int(len(y)),
+                "n_test": int(len(y)),
+                "n_features": int(best["top_n"]),
+                **best["metric"],
+            }
+        )
+        key_values = (
+            preds[(preds["protocol"] == "temporal_2022_2026") & (preds["target"] == target)][
+                ["lon", "lat", "year", "observed"]
+            ]
+            .drop_duplicates()
+            .sort_values(["year", "lon", "lat"])
+            .reset_index(drop=True)
+        )
+        key_values["protocol"] = "temporal_2022_2026"
+        key_values["target"] = target
+        key_values["method"] = "same_set_linear_stack_upper_bound"
+        key_values["model"] = f"{best['model_name']}_top{best['top_n']}"
+        key_values["predicted"] = best["pred"]
+        pred_rows.append(key_values)
+        model = best["fitted_model"]
+        coefs = getattr(model, "coef_", np.zeros(len(best["cols"])))
+        for candidate, coef in zip(best["cols"], np.asarray(coefs).reshape(-1)):
+            if abs(float(coef)) < 1e-10:
+                continue
+            coef_rows.append(
+                {
+                    "target": target,
+                    "model": f"{best['model_name']}_top{best['top_n']}",
+                    "candidate": candidate,
+                    "coefficient": float(coef),
+                }
+            )
+    metrics = pd.DataFrame(rows).sort_values("target")
+    metrics.to_csv(TABLES_DIR / "linear_stack_upper_bound_metrics.csv", index=False, encoding="utf-8-sig")
+    if pred_rows:
+        pd.concat(pred_rows, ignore_index=True).to_csv(
+            RESULTS_DIR / "linear_stack_upper_bound_predictions.csv", index=False, encoding="utf-8-sig"
+        )
+    pd.DataFrame(coef_rows).to_csv(TABLES_DIR / "linear_stack_upper_bound_coefficients.csv", index=False, encoding="utf-8-sig")
+
+    show = metrics[["target", "model", "n_features", "r2", "rmse", "mae", "mape"]].copy()
+    for col in ["r2", "rmse", "mae", "mape"]:
+        show[col] = show[col].map(lambda value: f"{value:.4f}")
+    report = [
+        "# 线性堆叠同集上限诊断",
+        "",
+        "该实验在 2022-2026 验证集上，直接用同一批样本拟合 OLS/Ridge 线性堆叠并在同一批样本评估，用于估计候选预测库的数学拟合上限。它使用了测试期观测值拟合参数，因此不能作为论文主结果、独立测试结果或真实预测能力证明。",
+        "",
+        md_table(show),
+        "",
+        "完整指标见 `tables/linear_stack_upper_bound_metrics.csv`；预测见 `results/linear_stack_upper_bound_predictions.csv`；系数见 `tables/linear_stack_upper_bound_coefficients.csv`。",
+        "",
+    ]
+    (DOCS_DIR / "linear_stack_upper_bound_report.md").write_text("\n".join(report), encoding="utf-8")
+    print("Wrote linear stack upper-bound outputs")
+
+
+if __name__ == "__main__":
+    main()

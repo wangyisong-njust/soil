@@ -1,0 +1,65 @@
+﻿target,protocol,model,feature,mean_abs_shap,normalized_shap,feature_group
+A,temporal,LightGBM,lat,0.1148412021910814,0.23167824107196458,Geographic position
+A,temporal,LightGBM,target_spatial_idw,0.0528160442574718,0.10654998380799237,Spatial lag
+A,temporal,LightGBM,target_spatial_mean,0.045909376853251,0.09261661733890457,Spatial lag
+A,temporal,LightGBM,year,0.0422450899635336,0.08522436155269063,Temporal trend
+A,temporal,LightGBM,a,0.0383991530759486,0.0774656488573382,Original driver variables
+A,temporal,LightGBM,target_spatial_min_dist,0.0378971782736403,0.0764529753826411,Spatial lag
+A,temporal,LightGBM,m,0.0320461802575683,0.06464929427328062,Original driver variables
+A,temporal,LightGBM,p,0.0314257637227698,0.06339767892293867,Original driver variables
+B,temporal,LightGBM,lat,0.1409924901815175,0.2423489095426125,Geographic position
+B,temporal,LightGBM,target_spatial_idw,0.0877734257418993,0.15087182294590934,Spatial lag
+B,temporal,LightGBM,target_spatial_mean,0.0795437319281395,0.13672598213505088,Spatial lag
+B,temporal,LightGBM,lon,0.0429273554325639,0.0737868929418609,Geographic position
+B,temporal,LightGBM,year,0.0420327019222771,0.07224909257847034,Temporal trend
+B,temporal,LightGBM,target_spatial_min_dist,0.0380768212060599,0.06544941568346957,Spatial lag
+B,temporal,LightGBM,lon_lat,0.0303210238270655,0.05211814509584546,Geographic position
+B,temporal,LightGBM,j,0.0282034779465302,0.04847834176735972,Original driver variables
+C,temporal,XGBoost,target_spatial_mean,0.0802489593625068,0.19320595505736227,Spatial lag
+C,temporal,XGBoost,target_spatial_idw,0.0635957643389701,0.15311202144328764,Spatial lag
+C,temporal,XGBoost,year,0.0463750585913658,0.1116517591899409,Temporal trend
+C,temporal,XGBoost,a,0.0452097132802009,0.1088460947227151,Original driver variables
+C,temporal,XGBoost,i,0.0335442163050174,0.08076045346065383,Original driver variables
+C,temporal,XGBoost,q,0.028615690767765,0.06889462378493173,Original driver variables
+C,temporal,XGBoost,lon_lat,0.0254563223570585,0.061288185071985635,Geographic position
+C,temporal,XGBoost,c,0.0236596725881099,0.056962603316523225,Original driver variables
+D,temporal,XGBoost,target_spatial_idw,0.0808949097990989,0.23604278204783205,Spatial lag
+D,temporal,XGBoost,lon_lat,0.044095229357481,0.12866521068415845,Geographic position
+D,temporal,XGBoost,target_spatial_mean,0.0424838624894619,0.12396341276669334,Spatial lag
+D,temporal,XGBoost,g,0.030842650681734,0.08999558922466407,Original driver variables
+D,temporal,XGBoost,year,0.02944659255445,0.0859220394168581,Temporal trend
+D,temporal,XGBoost,target_spatial_min_dist,0.0186280831694602,0.0543547744407864,Spatial lag
+D,temporal,XGBoost,h,0.0179724525660276,0.052441713754838845,Original driver variables
+D,temporal,XGBoost,a,0.0161418206989765,0.047100123784873,Original driver variables
+E,temporal,LightGBM,target_spatial_mean,0.0432482929361777,0.1633470427256943,Spatial lag
+E,temporal,LightGBM,i,0.0381109113800266,0.14394336161880772,Original driver variables
+E,temporal,LightGBM,j,0.0320710930247724,0.12113121344021802,Original driver variables
+E,temporal,LightGBM,lon,0.0250436787792968,0.09458895576773962,Geographic position
+E,temporal,LightGBM,p,0.0196446455546829,0.07419702695519875,Original driver variables
+E,temporal,LightGBM,e,0.0173105127638438,0.06538110237581035,Original driver variables
+E,temporal,LightGBM,q,0.0171948618700904,0.06494429365572794,Original driver variables
+E,temporal,LightGBM,target_spatial_idw,0.0163512613270494,0.06175804872923128,Spatial lag
+F,temporal,LightGBM,target_spatial_idw,0.2591163432195102,0.3030558223347368,Spatial lag
+F,temporal,LightGBM,year,0.0879684506737392,0.10288564135786032,Temporal trend
+F,temporal,LightGBM,lat,0.0757205657445867,0.08856082960362412,Geographic position
+F,temporal,LightGBM,lon_lat,0.0673179430792578,0.07873333786778824,Geographic position
+F,temporal,LightGBM,b,0.0576906280733653,0.06747347741385057,Original driver variables
+F,temporal,LightGBM,target_spatial_mean,0.0536194324868924,0.0627119115820154,Spatial lag
+F,temporal,LightGBM,target_spatial_min_dist,0.0474866520853339,0.05553916908071289,Spatial lag
+F,temporal,LightGBM,p,0.0441793405898577,0.05167102246932925,Original driver variables
+G,temporal,XGBoost,target_spatial_mean,0.0827118530869484,0.214777770562454,Spatial lag
+G,temporal,XGBoost,lat,0.0556592568755149,0.14453032614708017,Geographic position
+G,temporal,XGBoost,target_spatial_idw,0.0454279631376266,0.11796273786341256,Spatial lag
+G,temporal,XGBoost,b,0.0366236306726932,0.09510053822050044,Original driver variables
+G,temporal,XGBoost,lon_lat,0.030091181397438,0.07813773495484587,Geographic position
+G,temporal,XGBoost,a,0.0238298866897821,0.061879038432460384,Original driver variables
+G,temporal,XGBoost,target_spatial_min_dist,0.022030271589756,0.057205980042052684,Spatial lag
+G,temporal,XGBoost,l,0.0209138840436935,0.0543070578286314,Original driver variables
+H,temporal,CatBoost,target_spatial_mean,0.0199232743879746,0.30601186148282566,Spatial lag
+H,temporal,CatBoost,target_spatial_idw,0.0141864286119775,0.21789668418986127,Spatial lag
+H,temporal,CatBoost,i,0.005596071684936,0.085952955320046,Original driver variables
+H,temporal,CatBoost,b,0.0039199766157121,0.060208945466677065,Original driver variables
+H,temporal,CatBoost,target_spatial_min_dist,0.003670100704999,0.05637097229580185,Spatial lag
+H,temporal,CatBoost,a,0.0034233704163702,0.05258131435919951,Original driver variables
+H,temporal,CatBoost,j,0.0032171745529474,0.04941424559493279,Original driver variables
+H,temporal,CatBoost,q,0.0024030418317992,0.036909560639983185,Original driver variables

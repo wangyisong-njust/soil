@@ -1,0 +1,118 @@
+{
+  "strategy": "quality",
+  "n_input": 977,
+  "duplicate_decimals": 6,
+  "driver_winsor_limits": [
+    0.005,
+    0.995
+  ],
+  "n_required_missing_rows_removed": 0,
+  "n_coordinate_outside_broad_china_bounds_removed": 0,
+  "n_duplicate_rows_involved": 10,
+  "n_duplicate_groups_aggregated": 5,
+  "n_after_duplicate_aggregation": 972,
+  "feature_missing_imputed_by_median": {
+    "q": 1
+  },
+  "driver_winsorized": {
+    "a": {
+      "low": 4.69275,
+      "high": 8.83,
+      "n_low_capped": 5,
+      "n_high_capped": 3
+    },
+    "b": {
+      "low": 0.5385500000000001,
+      "high": 4.559449999999993,
+      "n_low_capped": 5,
+      "n_high_capped": 5
+    },
+    "c": {
+      "low": 5.671,
+      "high": 18.8145,
+      "n_low_capped": 5,
+      "n_high_capped": 5
+    },
+    "d": {
+      "low": 8.1,
+      "high": 44.814499999999995,
+      "n_low_capped": 3,
+      "n_high_capped": 5
+    },
+    "e": {
+      "low": 20.013,
+      "high": 59.043499999999995,
+      "n_low_capped": 5,
+      "n_high_capped": 5
+    },
+    "f": {
+      "low": 13.771,
+      "high": 69.34349999999999,
+      "n_low_capped": 5,
+      "n_high_capped": 5
+    },
+    "g": {
+      "low": 0.5710000000000001,
+      "high": 25.628999999999998,
+      "n_low_capped": 5,
+      "n_high_capped": 5
+    },
+    "h": {
+      "low": 226.855,
+      "high": 1695.725,
+      "n_low_capped": 5,
+      "n_high_capped": 5
+    },
+    "i": {
+      "low": 0.0,
+      "high": 2186.224999999998,
+      "n_low_capped": 0,
+      "n_high_capped": 5
+    },
+    "j": {
+      "low": 0.3,
+      "high": 10.3,
+      "n_low_capped": 4,
+      "n_high_capped": 4
+    },
+    "l": {
+      "low": 1.7855,
+      "high": 28.214499999999997,
+      "n_low_capped": 5,
+      "n_high_capped": 5
+    },
+    "m": {
+      "low": 1.0,
+      "high": 5247.2449999999935,
+      "n_low_capped": 0,
+      "n_high_capped": 5
+    },
+    "n": {
+      "low": 0.25855,
+      "high": 65.0,
+      "n_low_capped": 5,
+      "n_high_capped": 0
+    },
+    "o": {
+      "low": 0.21420000000000003,
+      "high": 12.0,
+      "n_low_capped": 5,
+      "n_high_capped": 0
+    },
+    "p": {
+      "low": 3.0,
+      "high": 113.06249999999996,
+      "n_low_capped": 4,
+      "n_high_capped": 5
+    },
+    "q": {
+      "low": 0.4,
+      "high": 68.458,
+      "n_low_capped": 2,
+      "n_high_capped": 5
+    }
+  },
+  "n_target_outlier_rows_removed": 0,
+  "n_output": 972,
+  "n_removed_total": 5
+}

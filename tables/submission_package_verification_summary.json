@@ -1,0 +1,8 @@
+{
+  "status": "ok",
+  "n_gates": 9,
+  "n_ok": 5,
+  "n_warning": 4,
+  "n_failed": 0,
+  "allow_warnings": true
+}

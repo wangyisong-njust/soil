@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "generated_at_utc": "2026-06-06T12:10:57+00:00",
+  "python": "3.12.10",
+  "platform": "Linux-5.15.0-161-generic-x86_64-with-glibc2.35",
+  "data_file": "data/processed/soil_heavy_metals_geology.csv",
+  "n_hash_files": 24,
+  "n_missing_hash_files": 0,
+  "n_packages": 14,
+  "n_missing_packages": 0,
+  "publication_mean_r2": 0.39929246299745225,
+  "publication_median_r2": 0.41105449258065097,
+  "publication_positive_r2_targets": 8,
+  "submission_verification_status": "failed",
+  "submission_readiness_status": "failed"
+}

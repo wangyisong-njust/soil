@@ -1,0 +1,40 @@
+{
+  "input_csv": "data/processed/soil_heavy_metals.csv",
+  "output_csv": "data/processed/soil_heavy_metals_external.csv",
+  "n_rows": 972,
+  "n_unique_points": 942,
+  "sources": [
+    {
+      "name": "SoilGrids",
+      "url": "https://rest.isric.org/soilgrids/v2.0/properties/query",
+      "n_success": 942,
+      "columns": [
+        "sg_bdod_0_5cm",
+        "sg_cec_0_5cm",
+        "sg_clay_0_5cm",
+        "sg_nitrogen_0_5cm",
+        "sg_phh2o_0_5cm",
+        "sg_sand_0_5cm",
+        "sg_silt_0_5cm",
+        "sg_soc_0_5cm"
+      ]
+    },
+    {
+      "name": "NASA POWER",
+      "url": "https://power.larc.nasa.gov/api/temporal/monthly/point",
+      "n_point_year_rows": 25434,
+      "requested_year_max": 2026,
+      "api_year_max_used": 2025,
+      "n_errors": 0,
+      "sample_errors": [],
+      "columns": [
+        "np_t2m_annual_mean",
+        "np_t2m_max_annual_mean",
+        "np_t2m_min_annual_mean",
+        "np_prectotcorr_annual_sum",
+        "np_ws2m_annual_mean",
+        "np_allsky_sfc_sw_dwn_annual_mean"
+      ]
+    }
+  ]
+}

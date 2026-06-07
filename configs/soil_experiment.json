@@ -1,0 +1,50 @@
+{
+  "raw_excel": "ABC2.xlsx",
+  "processed_csv": "data/processed/soil_heavy_metals.csv",
+  "data_cleaning_strategy": "quality",
+  "driver_winsor_limits": [
+    0.005,
+    0.995
+  ],
+  "target_columns": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "base_feature_columns": [
+    "lon",
+    "lat",
+    "year",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q"
+  ],
+  "primary_protocol": "temporal",
+  "temporal_test_start_year": 2022,
+  "random_seed": 42,
+  "random_test_size": 0.2,
+  "ensemble_top_k": 3,
+  "shap_max_samples": 300,
+  "use_target_spatial_lag_features": true,
+  "target_spatial_lag_k": 12,
+  "ensemble_include_raw_models": false
+}

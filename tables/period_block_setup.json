@@ -1,0 +1,29 @@
+{
+  "folds": [
+    {
+      "fold": "P1_to_P2",
+      "train_start": 2000,
+      "train_end": 2008,
+      "test_start": 2009,
+      "test_end": 2017
+    },
+    {
+      "fold": "P1P2_to_P3",
+      "train_start": 2000,
+      "train_end": 2017,
+      "test_start": 2018,
+      "test_end": 2026
+    }
+  ],
+  "models": [
+    "RF",
+    "ExtraTrees",
+    "HistGBR",
+    "ElasticNet",
+    "PLSR",
+    "XGBoost",
+    "LightGBM",
+    "CatBoost",
+    "NGBoost"
+  ]
+}

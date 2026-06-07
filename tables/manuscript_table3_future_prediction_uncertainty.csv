@@ -1,0 +1,9 @@
+﻿target,n,mean_prediction,median_prediction,median_interval_width,mean_relative_width,max_upper,future_prediction_file
+A,8478,14.4640,12.5471,22.0061,1.7233,156.3415,future_predictions_publication_aligned_2027_2035.csv
+B,8478,0.8176,0.5979,2.2422,3.7965,51.4992,future_predictions_publication_aligned_2027_2035.csv
+C,8478,43.0820,42.2172,97.9936,2.3679,190.7553,future_predictions_publication_aligned_2027_2035.csv
+D,8478,36.5166,33.6725,44.9660,1.3022,266.0937,future_predictions_publication_aligned_2027_2035.csv
+E,8478,34.4812,33.0843,38.4726,1.1791,245.1285,future_predictions_publication_aligned_2027_2035.csv
+F,8478,198.1529,176.4831,171.3143,2.4041,2630.0786,future_predictions_publication_aligned_2027_2035.csv
+G,8478,79.9402,74.4981,69.8425,0.9155,278.5353,future_predictions_publication_aligned_2027_2035.csv
+H,8478,0.1216,0.0940,0.2882,3.3562,2.9634,future_predictions_publication_aligned_2027_2035.csv

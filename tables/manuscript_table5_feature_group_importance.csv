@@ -1,0 +1,31 @@
+﻿target,feature_group,normalized_shap
+A,Geographic position,0.3381
+A,Original driver variables,0.3011
+A,Spatial lag,0.2756
+A,Temporal trend,0.0852
+B,Geographic position,0.4161
+B,Original driver variables,0.1586
+B,Spatial lag,0.3530
+B,Temporal trend,0.0722
+C,Geographic position,0.1027
+C,Original driver variables,0.4393
+C,Spatial lag,0.3463
+C,Temporal trend,0.1117
+D,Geographic position,0.1287
+D,Original driver variables,0.3711
+D,Spatial lag,0.4144
+D,Temporal trend,0.0859
+E,Geographic position,0.1490
+E,Original driver variables,0.5716
+E,Spatial lag,0.2251
+E,Temporal trend,0.0544
+F,Geographic position,0.1673
+F,Original driver variables,0.3085
+F,Spatial lag,0.4213
+F,Temporal trend,0.1029
+G,Geographic position,0.2227
+G,Original driver variables,0.3874
+G,Spatial lag,0.3899
+H,Geographic position,0.1041
+H,Original driver variables,0.3156
+H,Spatial lag,0.5803

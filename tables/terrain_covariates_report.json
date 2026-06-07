@@ -1,0 +1,15 @@
+{
+  "source": "https://api.opentopodata.org/v1/srtm30m",
+  "n_rows": 972,
+  "n_unique_locations": 942,
+  "n_missing_locations_filled": 0,
+  "terrain_columns": [
+    "dem_elev",
+    "terr_slope_deg",
+    "terr_aspect_sin",
+    "terr_aspect_cos",
+    "terr_roughness",
+    "terr_tpi"
+  ],
+  "delta_deg": 0.0025
+}

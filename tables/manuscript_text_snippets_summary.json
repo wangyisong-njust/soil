@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "output": "docs/manuscript_text_snippets.md",
+  "n_targets": 8,
+  "mean_publication_r2": 0.39929246299745225,
+  "median_publication_r2": 0.41105449258065097,
+  "best_target": "A",
+  "best_target_r2": 0.6799856172470193,
+  "weakest_target": "H",
+  "weakest_target_r2": 0.0792810470593082,
+  "publication_equals_best_eligible": 2,
+  "exact_future_targets": 1
+}

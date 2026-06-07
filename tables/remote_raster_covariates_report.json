@@ -1,0 +1,44 @@
+{
+  "input_csv": "data/processed/soil_heavy_metals_external_activity.csv",
+  "output_csv": "data/processed/soil_heavy_metals_external_raster.csv",
+  "n_rows": 972,
+  "viirs": {
+    "source": "Zenodo 10.5281/zenodo.8277198, based on Annual VNL V2 VIIRS",
+    "years_used": [
+      2000,
+      2005,
+      2010,
+      2015,
+      2020,
+      2021
+    ],
+    "mode": "epochs",
+    "note": "Rows after 2021 use the nearest available 2021 annual layer. Epoch mode uses representative annual layers to avoid remote-source rate limits."
+  },
+  "ghsl": {
+    "source": "JRC GHSL R2023A 4326 30 arc-second grids",
+    "epochs_used": [
+      2020
+    ],
+    "mode": "static",
+    "note": "Static mode samples selected representative GHSL epochs for all rows to reduce remote IO."
+  },
+  "worldcover": {
+    "source": "ESA WorldCover 10 m 2021 v200 COGs on AWS Open Data",
+    "n_tiles": 72,
+    "tile_failures": {},
+    "class_codes": {
+      "10": "tree",
+      "20": "shrub",
+      "30": "grass",
+      "40": "cropland",
+      "50": "built",
+      "60": "bare",
+      "70": "snow_ice",
+      "80": "water",
+      "90": "wetland",
+      "95": "mangrove",
+      "100": "moss_lichen"
+    }
+  }
+}

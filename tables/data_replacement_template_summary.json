@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "template": "data/templates/soil_heavy_metal_input_template.csv",
+  "schema": "tables/data_replacement_schema.csv",
+  "checklist": "docs/data_replacement_checklist.md",
+  "parameter_guide": "docs/parameter_replacement_guide.md",
+  "n_columns": 28,
+  "n_targets": 8,
+  "n_base_features": 20
+}

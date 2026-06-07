@@ -1,0 +1,17 @@
+{
+  "source": "OpenStreetMap / Geofabrik",
+  "url": "https://download.geofabrik.de/asia/china-latest-free.shp.zip",
+  "input_csv": "data/processed/soil_heavy_metals_external.csv",
+  "output_csv": "data/processed/soil_heavy_metals_external_osm.csv",
+  "layers": {
+    "gis_osm_roads_free_1": "data/external_raw/osm/china_shp/gis_osm_roads_free_1.shp",
+    "gis_osm_pois_free_1": "data/external_raw/osm/china_shp/gis_osm_pois_free_1.shp",
+    "gis_osm_landuse_a_free_1": "data/external_raw/osm/china_shp/gis_osm_landuse_a_free_1.shp"
+  },
+  "radius_km": 10.0,
+  "segment_step": 1,
+  "road_layer_skipped": true,
+  "n_pollution_source_points": 130092,
+  "n_industrial_source_points": 119506,
+  "n_mining_source_points": 10586
+}

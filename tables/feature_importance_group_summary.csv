@@ -1,0 +1,31 @@
+﻿target,feature_group,normalized_shap
+A,Geographic position,0.3380563112945231
+A,Original driver variables,0.3010997506232483
+A,Spatial lag,0.27561957652953806
+A,Temporal trend,0.08522436155269063
+B,Geographic position,0.416093993898872
+B,Spatial lag,0.3530472207644298
+B,Original driver variables,0.15860969275822787
+B,Temporal trend,0.07224909257847034
+C,Original driver variables,0.43934286857294064
+C,Spatial lag,0.3463179765006499
+C,Temporal trend,0.1116517591899409
+C,Geographic position,0.10268739573646854
+D,Spatial lag,0.4143609692553118
+D,Original driver variables,0.3710517806436717
+D,Geographic position,0.12866521068415845
+D,Temporal trend,0.0859220394168581
+E,Original driver variables,0.5715787077782104
+E,Spatial lag,0.22510509145492558
+E,Geographic position,0.14895228463071575
+E,Temporal trend,0.054363916136148285
+F,Spatial lag,0.4213069029974651
+F,Original driver variables,0.30851328817326223
+F,Geographic position,0.16729416747141235
+F,Temporal trend,0.10288564135786032
+G,Spatial lag,0.38994648846791924
+G,Original driver variables,0.3873854504301547
+G,Geographic position,0.22266806110192605
+H,Spatial lag,0.5802795179684888
+H,Original driver variables,0.31563365560791246
+H,Geographic position,0.10408682642359887

@@ -1,0 +1,5 @@
+﻿validation,role,design,source_file,n_targets,mean_r2,median_r2,min_r2,max_r2,positive_r2_targets,status
+random_fivefold_cv,评价一般拟合能力,统一候选池下的随机五折交叉验证，衡量同分布样本上的插值能力；逐目标最优为选择偏倚上界。,tables/unified_validation_best_by_target.csv,0,,,,,0,missing
+spatial_block_cv,评价空间外推能力,统一候选池下的 KMeans 空间分块逐块留出，衡量跨区域外推能力。,tables/unified_validation_best_by_target.csv,0,,,,,0,missing
+future_year_independent_validation,评价时间外推能力（纯回归池）,统一候选池下 2000-2021 训练、2022 年起独立测试；与上面两类同池，故三类严格可比。,tables/unified_validation_best_by_target.csv,8,0.2403412468612342,0.2040166740931777,0.013859049900205,0.6366777251281004,8,ok
+future_year_framework_adaptive,时间外推·统一目标自适应框架,在纯回归池外再引入地形/地质外部因子、空间分位数背景、局部污染记忆、风险门控和历史因果记忆等候选模块后的论文主结果口径。,tables/publication_grade_recommended_metrics.csv,8,0.39929246299745225,0.41105449258065097,0.0792810470593082,0.6799856172470193,8,ok

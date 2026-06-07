@@ -1,0 +1,2 @@
+﻿validation,role,design,n_targets,best_mean_r2,best_median_r2,best_min_r2,best_max_r2,positive_r2_targets,pool_mean_r2
+future_year_independent_validation,评价时间外推能力,2000-2021 年训练、2022 年及之后独立测试，衡量时间外推能力，作为论文主验证口径。,8,0.24034124686123426,0.20401667409317775,0.013859049900205034,0.6366777251281004,8,-5.389339314577412

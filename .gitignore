@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+logs/
+*.log
+.DS_Store
+
+# Local datasets and public-download source materials are not uploaded.
+ABC*.xlsx
+data/raw/
+data/processed/
+data/external_raw/
+data/external_cache/
+docs/source_materials/

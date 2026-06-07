@@ -1,0 +1,29 @@
+﻿column,role,required,dtype,example_value,description,run_project_parameter
+lon,spatial_coordinate,True,numeric,116.4,Sampling coordinate in decimal degrees.,BASE_FEATURE_COLUMNS
+lat,spatial_coordinate,True,numeric,39.9,Sampling coordinate in decimal degrees.,BASE_FEATURE_COLUMNS
+year,time,True,integer,2020.0,Sampling year used for temporal validation and future prediction.,BASE_FEATURE_COLUMNS
+a,driver,True,numeric,13.0,"Environmental, soil, climate, terrain, land-use, or anthropogenic predictor.",BASE_FEATURE_COLUMNS
+b,driver,True,numeric,14.0,"Environmental, soil, climate, terrain, land-use, or anthropogenic predictor.",BASE_FEATURE_COLUMNS
+c,driver,True,numeric,15.0,"Environmental, soil, climate, terrain, land-use, or anthropogenic predictor.",BASE_FEATURE_COLUMNS
+d,driver,True,numeric,16.0,"Environmental, soil, climate, terrain, land-use, or anthropogenic predictor.",BASE_FEATURE_COLUMNS
+e,driver,True,numeric,17.0,"Environmental, soil, climate, terrain, land-use, or anthropogenic predictor.",BASE_FEATURE_COLUMNS
+f,driver,True,numeric,18.0,"Environmental, soil, climate, terrain, land-use, or anthropogenic predictor.",BASE_FEATURE_COLUMNS
+g,driver,True,numeric,19.0,"Environmental, soil, climate, terrain, land-use, or anthropogenic predictor.",BASE_FEATURE_COLUMNS
+h,driver,True,numeric,20.0,"Environmental, soil, climate, terrain, land-use, or anthropogenic predictor.",BASE_FEATURE_COLUMNS
+i,driver,True,numeric,21.0,"Environmental, soil, climate, terrain, land-use, or anthropogenic predictor.",BASE_FEATURE_COLUMNS
+j,driver,True,numeric,22.0,"Environmental, soil, climate, terrain, land-use, or anthropogenic predictor.",BASE_FEATURE_COLUMNS
+k,driver,True,numeric,23.0,"Environmental, soil, climate, terrain, land-use, or anthropogenic predictor.",BASE_FEATURE_COLUMNS
+l,driver,True,numeric,24.0,"Environmental, soil, climate, terrain, land-use, or anthropogenic predictor.",BASE_FEATURE_COLUMNS
+m,driver,True,numeric,25.0,"Environmental, soil, climate, terrain, land-use, or anthropogenic predictor.",BASE_FEATURE_COLUMNS
+n,driver,True,numeric,26.0,"Environmental, soil, climate, terrain, land-use, or anthropogenic predictor.",BASE_FEATURE_COLUMNS
+o,driver,True,numeric,27.0,"Environmental, soil, climate, terrain, land-use, or anthropogenic predictor.",BASE_FEATURE_COLUMNS
+p,driver,True,numeric,28.0,"Environmental, soil, climate, terrain, land-use, or anthropogenic predictor.",BASE_FEATURE_COLUMNS
+q,driver,True,numeric,29.0,"Environmental, soil, climate, terrain, land-use, or anthropogenic predictor.",BASE_FEATURE_COLUMNS
+A,target,True,numeric,11.0,Heavy metal concentration target. Replace anonymous names with formal metal names before manuscript use.,TARGET_COLUMNS
+B,target,True,numeric,11.5,Heavy metal concentration target. Replace anonymous names with formal metal names before manuscript use.,TARGET_COLUMNS
+C,target,True,numeric,12.0,Heavy metal concentration target. Replace anonymous names with formal metal names before manuscript use.,TARGET_COLUMNS
+D,target,True,numeric,12.5,Heavy metal concentration target. Replace anonymous names with formal metal names before manuscript use.,TARGET_COLUMNS
+E,target,True,numeric,13.0,Heavy metal concentration target. Replace anonymous names with formal metal names before manuscript use.,TARGET_COLUMNS
+F,target,True,numeric,13.5,Heavy metal concentration target. Replace anonymous names with formal metal names before manuscript use.,TARGET_COLUMNS
+G,target,True,numeric,14.0,Heavy metal concentration target. Replace anonymous names with formal metal names before manuscript use.,TARGET_COLUMNS
+H,target,True,numeric,14.5,Heavy metal concentration target. Replace anonymous names with formal metal names before manuscript use.,TARGET_COLUMNS

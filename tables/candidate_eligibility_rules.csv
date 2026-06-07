@@ -1,0 +1,24 @@
+﻿source,eligible_for_main_result,eligibility_class,eligibility_reason
+arima_lstm_temporal,True,public_result,Temporal sequence baseline evaluated without 2022-2026 target-value selection.
+causal_history_memory,True,public_result,Historical memory model evaluated without 2022-2026 target-value selection.
+conservative_baseline,False,test_grid_search_upper_bound,Contains many distribution constants and quantiles compared directly on 2022-2026; keep as diagnostic only.
+distribution_guided_spatial_quantile,True,public_result,Distribution rule is fixed from training-period distribution diagnostics.
+distributional_robust,True,public_result,Distributional transformation and robust-loss model evaluated as a predefined candidate family.
+external_public_covariates,True,public_result,Uses measured or public covariates and does not tune on 2022-2026 target values.
+local_analog_memory,True,public_result,Local historical analog model evaluated without 2022-2026 target-value selection.
+multi_evidence_fusion,True,public_result,Validation-defined multi-evidence fusion retained as a candidate when weights are not fitted on 2022-2026.
+multitask_latent,True,public_result,Latent pollution-factor model evaluated without 2022-2026 target-value selection.
+nnls_stack_exploration,False,same_test_set_fit_upper_bound,Stacking weights are fitted and evaluated on the same 2022-2026 target set.
+predefined_recent_median_baseline,True,public_baseline,"Predefined recent median baseline; useful as a guardrail, not an optimized main model."
+publication_validation_fusion,True,public_result,Fusion members and weights are fixed from 2019-2020 validation before 2022-2026 testing.
+quantile_risk_gate,True,public_result,Risk-gated quantile model evaluated without 2022-2026 target-value selection.
+spatial_distribution_features,True,public_result,Target-specific spatial distribution features evaluated without 2022-2026 target-value selection.
+spatial_model_blend_exploration,False,test_selected_oracle,Blend weights are selected against 2022-2026 target performance.
+spatial_quantile_baseline,False,test_grid_search_upper_bound,KNN/grid and quantile hyperparameters are searched directly against 2022-2026 target values.
+spatial_quantile_validated,True,public_sensitivity,Spatial quantile parameters are selected from 2019-2020 validation; suitable as sensitivity analysis.
+spatial_quantile_yearwise_validated,True,public_sensitivity,Spatial quantile parameters are selected by yearwise 2019 and 2020 validation stability.
+spatiotemporal_innovation,True,public_result,Predefined spatiotemporal feature/model family evaluated without 2022-2026 target-value selection.
+temporal_calibration_exploration,False,test_selected_oracle,Best row is selected by 2022-2026 target performance; use only as exploration upper bound.
+validation_transfer_calibration,True,public_result,Calibration is selected from 2019-2020 validation and then fixed for 2022-2026 testing.
+validation_transfer_test_selected_exploration,False,test_selected_oracle,Transfer-calibration form is selected by 2022-2026 target performance.
+yearwise_validation_selected_publication,True,public_sensitivity,Model selection uses predefined 2019 and 2020 validation-year rules.

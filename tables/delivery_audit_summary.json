@@ -1,0 +1,39 @@
+{
+  "publication_targets": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "publication_n_targets": 8,
+  "publication_mean_r2": 0.39929246299745225,
+  "publication_median_r2": 0.41105449258065097,
+  "publication_min_r2": 0.0792810470593082,
+  "publication_max_r2": 0.6799856172470193,
+  "publication_positive_r2_targets": 8,
+  "future_targets": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "future_year_min": 2027,
+  "future_year_max": 2035,
+  "future_n_rows": 67824,
+  "future_prediction_file": "results/future_predictions_publication_aligned_2027_2035.csv",
+  "future_exact_publication_targets": 1,
+  "n_model_files": 28,
+  "n_figure_files": 268,
+  "n_table_files": 163,
+  "n_result_files": 52,
+  "n_manifest_items": 116,
+  "n_missing_items": 0
+}

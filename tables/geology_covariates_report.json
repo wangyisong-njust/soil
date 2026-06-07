@@ -1,0 +1,19 @@
+{
+  "source": "https://macrostrat.org/api/v2/geologic_units/map",
+  "n_rows": 972,
+  "n_unique_locations": 942,
+  "n_api_requests": 942,
+  "n_locations_without_geology": 6,
+  "geology_columns": [
+    "geo_age_top",
+    "geo_age_bottom",
+    "geo_age_mid",
+    "geo_age_span",
+    "geo_is_sedimentary",
+    "geo_is_igneous_volcanic",
+    "geo_is_igneous_plutonic",
+    "geo_is_metamorphic",
+    "geo_is_unconsolidated",
+    "geo_has_data"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "data": "data/processed/soil_heavy_metals_external_osm.csv",
+  "protocols": [
+    "literature_2019_2020",
+    "temporal_2022_2026"
+  ],
+  "n_zones": 8,
+  "lstm_epochs": 260,
+  "note": "Point-level continuous time series are sparse; ARIMA/LSTM are annual-series baselines."
+}
