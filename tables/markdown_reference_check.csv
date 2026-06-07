@@ -1,9 +1,9 @@
 ﻿document,reference,source_type,status,is_dir,size_bytes
 README.md,data/processed/soil_heavy_metals.csv,inline_code,ok,False,164615
 README.md,data/processed/soil_heavy_metals_external_raster.csv,python_command,ok,False,952782
-README.md,docs/report.md,inline_code,ok,False,17372
+README.md,docs/report.md,inline_code,ok,False,24468
 README.md,docs/source_materials/,inline_code,ok,True,0
-README.md,docs/复现.md,inline_code,ok,False,17399
+README.md,docs/复现.md,inline_code,ok,False,16920
 README.md,figures/,inline_code,ok,True,0
 README.md,figures/feature_importance_summary/,inline_code,ok,True,0
 README.md,figures/manuscript_summary/manuscript_results_overview.pdf,inline_code,ok,False,38330
@@ -123,7 +123,7 @@ README.md,tables/manuscript_table3_future_prediction_uncertainty.csv,inline_code
 README.md,tables/manuscript_table4_future_exceedance_risk.csv,inline_code,ok,False,957
 README.md,tables/manuscript_table5_feature_group_importance.csv,inline_code,ok,False,864
 README.md,tables/manuscript_text_snippets_summary.json,inline_code,ok,False,380
-README.md,tables/markdown_reference_check.csv,inline_code,ok,False,34403
+README.md,tables/markdown_reference_check.csv,inline_code,ok,False,30327
 README.md,tables/markdown_reference_check_summary.json,inline_code,ok,False,81
 README.md,tables/model_metrics.csv,inline_code,ok,False,41384
 README.md,tables/multitask_latent_best_metrics.csv,inline_code,ok,False,3074
@@ -166,7 +166,7 @@ README.md,tables/validation_transfer_calibration_best_metrics.csv,inline_code,ok
 README.md,tables/validation_transfer_calibration_test_selected_best_metrics.csv,inline_code,ok,False,3325
 README.md,tables/yearwise_validation_selected_publication_metrics.csv,inline_code,ok,False,2401
 docs/report.md,data/processed/soil_heavy_metals.csv,inline_code,ok,False,164615
-docs/report.md,docs/复现.md,inline_code,ok,False,17399
+docs/report.md,docs/复现.md,inline_code,ok,False,16920
 docs/report.md,figures/,inline_code,ok,True,0
 docs/report.md,figures/feature_importance_summary/,inline_code,ok,True,0
 docs/report.md,figures/feature_importance_summary/shap_group_contribution_heatmap.png,inline_code,ok,False,194942
@@ -201,9 +201,8 @@ docs/复现.md,data/processed/soil_heavy_metals_geology.csv,inline_code,ok,False
 docs/复现.md,data/processed/soil_heavy_metals_terrain.csv,python_command,ok,False,1032791
 docs/复现.md,data/processed/soil_heavy_metals_terrain.csv,inline_code,ok,False,1032791
 docs/复现.md,docs/,inline_code,ok,True,0
-docs/复现.md,docs/report.md,inline_code,ok,False,17372
-docs/复现.md,docs/source_materials/,inline_code,ok,True,0
-docs/复现.md,docs/复现.md,inline_code,ok,False,17399
+docs/复现.md,docs/report.md,inline_code,ok,False,24468
+docs/复现.md,docs/复现.md,inline_code,ok,False,16920
 docs/复现.md,figures/,inline_code,ok,True,0
 docs/复现.md,figures/manuscript_summary/manuscript_results_overview.pdf,inline_code,ok,False,38330
 docs/复现.md,figures/manuscript_summary/manuscript_results_overview.png,inline_code,ok,False,369868
@@ -259,7 +258,6 @@ docs/复现.md,scripts/enrich_remote_raster_covariates.py,inline_code,ok,False,1
 docs/复现.md,scripts/enrich_terrain_covariates.py,python_command,ok,False,8011
 docs/复现.md,scripts/evaluate_cleaning_strategies.py,python_command,ok,False,13832
 docs/复现.md,scripts/evaluate_external_covariates.py,python_command,ok,False,10780
-docs/复现.md,scripts/extract_reference_notes.py,python_command,ok,False,4245
 docs/复现.md,scripts/plot_delivery_highlights.py,python_command,ok,False,9213
 docs/复现.md,scripts/plot_manuscript_summary_panels.py,python_command,ok,False,8635
 docs/复现.md,scripts/plot_temporal_sequence_comparison.py,python_command,ok,False,3480
@@ -326,7 +324,7 @@ docs/复现.md,tables/manuscript_table3_future_prediction_uncertainty.csv,inline
 docs/复现.md,tables/manuscript_table4_future_exceedance_risk.csv,inline_code,ok,False,957
 docs/复现.md,tables/manuscript_table5_feature_group_importance.csv,inline_code,ok,False,864
 docs/复现.md,tables/manuscript_text_snippets_summary.json,inline_code,ok,False,380
-docs/复现.md,tables/markdown_reference_check.csv,inline_code,ok,False,34403
+docs/复现.md,tables/markdown_reference_check.csv,inline_code,ok,False,30327
 docs/复现.md,tables/markdown_reference_check_summary.json,inline_code,ok,False,81
 docs/复现.md,tables/model_metrics.csv,inline_code,ok,False,41384
 docs/复现.md,tables/multi_evidence_fusion_best_metrics.csv,inline_code,ok,False,3834

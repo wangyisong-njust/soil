@@ -6,7 +6,7 @@
 
 - 状态：`ok`
 - 文档数：3
-- 本地引用数：373
+- 本地引用数：371
 - 缺失引用数：0
 
 ## 检查明细
@@ -216,7 +216,6 @@
 | docs/复现.md | data/processed/soil_heavy_metals_terrain.csv | inline_code | ok |
 | docs/复现.md | docs/ | inline_code | ok |
 | docs/复现.md | docs/report.md | inline_code | ok |
-| docs/复现.md | docs/source_materials/ | inline_code | ok |
 | docs/复现.md | docs/复现.md | inline_code | ok |
 | docs/复现.md | figures/ | inline_code | ok |
 | docs/复现.md | figures/manuscript_summary/manuscript_results_overview.pdf | inline_code | ok |
@@ -273,7 +272,6 @@
 | docs/复现.md | scripts/enrich_terrain_covariates.py | python_command | ok |
 | docs/复现.md | scripts/evaluate_cleaning_strategies.py | python_command | ok |
 | docs/复现.md | scripts/evaluate_external_covariates.py | python_command | ok |
-| docs/复现.md | scripts/extract_reference_notes.py | python_command | ok |
 | docs/复现.md | scripts/plot_delivery_highlights.py | python_command | ok |
 | docs/复现.md | scripts/plot_manuscript_summary_panels.py | python_command | ok |
 | docs/复现.md | scripts/plot_temporal_sequence_comparison.py | python_command | ok |
