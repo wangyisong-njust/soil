@@ -22,35 +22,9 @@ REQUIRED_ARTIFACTS = [
     ("data", "Processed modeling data", "data/processed/soil_heavy_metals.csv"),
     ("config", "Experiment config", "configs/soil_experiment.json"),
     ("config", "One-entry parameter replacement script", "run_project.py"),
-    ("config", "Input validation report", "docs/input_validation_report.md"),
     ("config", "Input validation machine-readable summary", "tables/input_validation_report.json"),
-    ("docs", "Reproduction guide", "docs/reproduction.md"),
-    ("docs", "Parameter replacement guide", "docs/parameter_replacement_guide.md"),
+    ("docs", "Reproduction guide", "docs/复现.md"),
     ("docs", "Main report", "docs/report.md"),
-    ("docs", "Project delivery navigation guide", "docs/project_delivery_guide.md"),
-    ("docs", "Submission package verification report", "docs/submission_package_verification_report.md"),
-    ("docs", "Reproducibility snapshot", "docs/reproducibility_snapshot.md"),
-    ("docs", "Leakage and publication reproducibility audit report", "docs/leakage_publication_audit_report.md"),
-    ("docs", "Markdown local reference check report", "docs/markdown_reference_check_report.md"),
-    ("docs", "Publication-grade recommendation report", "docs/publication_grade_recommendation_report.md"),
-    ("docs", "Candidate eligibility audit report", "docs/candidate_eligibility_audit_report.md"),
-    ("docs", "Publication model cards", "docs/publication_model_cards.md"),
-    ("docs", "Manuscript-ready summary tables report", "docs/manuscript_tables_report.md"),
-    ("docs", "Manuscript methods and results text snippets", "docs/manuscript_text_snippets.md"),
-    ("docs", "Manuscript summary figure report", "docs/manuscript_summary_figure_report.md"),
-    ("docs", "Submission readiness audit report", "docs/submission_readiness_audit_report.md"),
-    ("docs", "Current visual summary report", "docs/current_visual_summary_report.md"),
-    ("docs", "Feature importance summary report", "docs/feature_importance_summary_report.md"),
-    ("docs", "Distributional robust model report", "docs/distributional_robust_model_report.md"),
-    ("docs", "Random five-fold cross-validation report", "docs/random_fivefold_cv_report.md"),
-    ("docs", "Fixed spatial background residual model report", "docs/spatial_baseline_residual_fixed_report.md"),
-    ("docs", "Validation strategy and M0-M6 ablation report", "docs/validation_strategy_and_ablation_report.md"),
-    ("docs", "Spatial block cross-validation report", "docs/spatial_block_cv_report.md"),
-    ("docs", "Distribution-guided spatial quantile report", "docs/distribution_guided_spatial_quantile_report.md"),
-    ("docs", "Yearwise spatial quantile validation report", "docs/spatial_quantile_yearwise_validated_report.md"),
-    ("docs", "Yearwise validation-selected publication report", "docs/yearwise_validation_selected_publication_report.md"),
-    ("docs", "Yearwise error and distribution shift diagnostics report", "docs/yearwise_error_diagnostics_report.md"),
-    ("docs", "Publication-aligned future prediction report", "docs/publication_aligned_future_prediction_report.md"),
     ("metrics", "Base model metrics", "tables/model_metrics.csv"),
     ("metrics", "Publication-grade recommended metrics", "tables/publication_grade_recommended_metrics.csv"),
     ("metrics", "Candidate eligibility audit details", "tables/candidate_eligibility_audit.csv"),
@@ -276,7 +250,9 @@ def write_report(manifest: pd.DataFrame, summary: dict[str, object]) -> None:
             "",
         ]
     )
-    (DOCS_DIR / "delivery_artifact_index.md").write_text("\n".join(summary_lines), encoding="utf-8")
+    legacy_docs = ROOT / "archive" / "legacy_docs"
+    legacy_docs.mkdir(parents=True, exist_ok=True)
+    (legacy_docs / "delivery_artifact_index.md").write_text("\n".join(summary_lines), encoding="utf-8")
 
 
 def main() -> None:

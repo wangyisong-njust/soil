@@ -6,12 +6,12 @@
 
 ## 文档入口
 
-交付包只保留两份文档：
+正式文档只保留两份：
 
 - 实验报告（自包含）：`docs/report.md`
-- 复现说明：`docs/reproduction.md`
+- 复现说明：`docs/复现.md`
 
-各分析环节的权威产物在 `tables/`、`results/`、`figures/` 下。运行完整流程时部分脚本还会在 `docs/` 下生成分项分析报告，仅供查阅；早期过程说明已归档到 `archive/dev_reports/`，不影响任何结果。原始文献与方案文档放在 `docs/source_materials/`。
+各分析环节的权威产物在 `tables/`、`results/`、`figures/` 下。历史分项说明已归档到 `archive/legacy_docs/` 和 `archive/dev_reports/`，不作为正式阅读入口。原始文献与方案文档可放在 `docs/source_materials/`，该目录不随仓库上传。
 
 ## 快速运行
 

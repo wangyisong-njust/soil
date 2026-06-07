@@ -36,11 +36,8 @@ HASH_FILES = [
     "results/future_exceedance_probability_2027_2035.csv",
     "figures/manuscript_summary/manuscript_results_overview.png",
     "figures/validation_strategy/framework_module_ablation_mean_r2.png",
-    "docs/project_delivery_guide.md",
     "docs/report.md",
-    "docs/reproduction.md",
-    "docs/spatial_baseline_residual_fixed_report.md",
-    "docs/validation_strategy_and_ablation_report.md",
+    "docs/复现.md",
 ]
 
 PACKAGE_NAMES = [
@@ -190,7 +187,9 @@ def main() -> None:
         "机器可读结果见 `tables/reproducibility_snapshot_summary.json`、`tables/reproducibility_snapshot_files.csv` 和 `tables/reproducibility_snapshot_packages.csv`。",
         "",
     ]
-    (DOCS_DIR / "reproducibility_snapshot.md").write_text("\n".join(lines), encoding="utf-8")
+    legacy_docs = ROOT / "archive" / "legacy_docs"
+    legacy_docs.mkdir(parents=True, exist_ok=True)
+    (legacy_docs / "reproducibility_snapshot.md").write_text("\n".join(lines), encoding="utf-8")
     print("Wrote reproducibility snapshot")
 
 

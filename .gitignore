@@ -15,3 +15,8 @@ data/processed/
 data/external_raw/
 data/external_cache/
 docs/source_materials/
+
+# Keep the formal docs directory to two public Markdown entry points.
+docs/*.md
+!docs/report.md
+!docs/复现.md

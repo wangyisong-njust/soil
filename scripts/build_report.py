@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
 
-KEEP_DOCS = {"docs/report.md", "docs/reproduction.md"}
+KEEP_DOCS = {"docs/report.md", "docs/复现.md"}
 
 # 交付版主报告只保留最终有效创新方法、主结果与必要可信度骨架；
 # 下列章节属探索/敏感性/诊断/被概括的中间过程，整段删除（底层表格、图件、归档仍保留可追溯）。
@@ -455,7 +455,7 @@ def main() -> None:
     lines: list[str] = [
         "# 土壤重金属时空预测实验报告",
         "",
-        "本报告为交付版主报告，自包含实验设置、数据处理、验证设计与主要结果；复现步骤见 `docs/reproduction.md`。",
+        "本报告为交付版主报告，自包含实验设置、数据处理、验证设计与主要结果；复现步骤见 `docs/复现.md`。",
         "",
         "## 任务设置",
         "",

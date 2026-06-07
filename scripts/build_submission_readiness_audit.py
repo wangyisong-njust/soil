@@ -163,17 +163,7 @@ def main() -> None:
 
     required_docs = [
         "docs/report.md",
-        "docs/reproduction.md",
-        "docs/parameter_replacement_guide.md",
-        "docs/random_fivefold_cv_report.md",
-        "docs/spatial_baseline_residual_fixed_report.md",
-        "docs/validation_strategy_and_ablation_report.md",
-        "docs/candidate_eligibility_audit_report.md",
-        "docs/manuscript_tables_report.md",
-        "docs/manuscript_text_snippets.md",
-        "docs/manuscript_summary_figure_report.md",
-        "docs/leakage_publication_audit_report.md",
-        "docs/delivery_artifact_index.md",
+        "docs/复现.md",
     ]
     missing_docs = [path for path in required_docs if not exists_file(path)]
     add_check(
@@ -337,7 +327,9 @@ def main() -> None:
             "",
         ]
     )
-    (DOCS_DIR / "submission_readiness_audit_report.md").write_text("\n".join(report), encoding="utf-8")
+    legacy_docs = ROOT / "archive" / "legacy_docs"
+    legacy_docs.mkdir(parents=True, exist_ok=True)
+    (legacy_docs / "submission_readiness_audit_report.md").write_text("\n".join(report), encoding="utf-8")
     print("Wrote submission readiness audit outputs")
 
 

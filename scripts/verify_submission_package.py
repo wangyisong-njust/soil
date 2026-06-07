@@ -154,12 +154,8 @@ def main() -> None:
         )
 
     required_files = [
-        "docs/project_delivery_guide.md",
         "docs/report.md",
-        "docs/reproduction.md",
-        "docs/validation_strategy_and_ablation_report.md",
-        "docs/submission_readiness_audit_report.md",
-        "docs/manuscript_text_snippets.md",
+        "docs/复现.md",
         "figures/manuscript_summary/manuscript_results_overview.png",
         "figures/validation_strategy/framework_module_ablation_mean_r2.png",
         "results/future_predictions_publication_aligned_2027_2035.csv",
@@ -218,7 +214,9 @@ def main() -> None:
         "机器可读结果见 `tables/submission_package_verification.csv` 和 `tables/submission_package_verification_summary.json`。",
         "",
     ]
-    (DOCS_DIR / "submission_package_verification_report.md").write_text("\n".join(lines), encoding="utf-8")
+    legacy_docs = ROOT / "archive" / "legacy_docs"
+    legacy_docs.mkdir(parents=True, exist_ok=True)
+    (legacy_docs / "submission_package_verification_report.md").write_text("\n".join(lines), encoding="utf-8")
     print(f"Submission package verification: {status} ({n_ok} ok, {n_warning} warning, {n_failed} failed)")
     if status != "ok":
         raise SystemExit(1)

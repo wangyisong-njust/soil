@@ -81,8 +81,8 @@ def main() -> None:
         },
         {
             "用途": "复现步骤",
-            "文件": "docs/reproduction.md",
-            "状态": exists("docs/reproduction.md"),
+            "文件": "docs/复现.md",
+            "状态": exists("docs/复现.md"),
             "说明": "环境安装、分步命令、预期输出和外部因子说明。",
         },
         {
@@ -90,36 +90,6 @@ def main() -> None:
             "文件": "docs/report.md",
             "状态": exists("docs/report.md"),
             "说明": "方法、结果、消融、未来预测、风险和审计汇总。",
-        },
-        {
-            "用途": "验证策略与消融",
-            "文件": "docs/validation_strategy_and_ablation_report.md",
-            "状态": exists("docs/validation_strategy_and_ablation_report.md"),
-            "说明": "三类验证策略和 M0-M6 框架模块贡献。",
-        },
-        {
-            "用途": "投稿准备度总控",
-            "文件": "docs/submission_readiness_audit_report.md",
-            "状态": exists("docs/submission_readiness_audit_report.md"),
-            "说明": "检查主指标、未来预测、图文材料、防泄漏和引用完整性。",
-        },
-        {
-            "用途": "一键验收报告",
-            "文件": "docs/submission_package_verification_report.md",
-            "状态": exists("docs/submission_package_verification_report.md"),
-            "说明": "读取关键审计摘要并返回通过/失败状态。",
-        },
-        {
-            "用途": "交付文件清单",
-            "文件": "docs/delivery_artifact_index.md",
-            "状态": exists("docs/delivery_artifact_index.md"),
-            "说明": "列出核心文件、大小、状态和可追溯哈希。",
-        },
-        {
-            "用途": "复现快照",
-            "文件": "docs/reproducibility_snapshot.md",
-            "状态": exists("docs/reproducibility_snapshot.md"),
-            "说明": "记录关键文件哈希、数据版本、指标摘要和包版本。",
         },
     ]
 
@@ -132,20 +102,20 @@ def main() -> None:
         },
         {
             "用途": "模型卡",
-            "文件": "docs/publication_model_cards.md",
-            "状态": exists("docs/publication_model_cards.md"),
+            "文件": "tables/publication_model_cards.csv",
+            "状态": exists("tables/publication_model_cards.csv"),
             "说明": "每个目标的最终模型、未来预测实现和复现说明。",
         },
         {
             "用途": "论文表格",
-            "文件": "docs/manuscript_tables_report.md",
-            "状态": exists("docs/manuscript_tables_report.md"),
+            "文件": "tables/manuscript_table2_publication_model_performance.csv",
+            "状态": exists("tables/manuscript_table2_publication_model_performance.csv"),
             "说明": "变量表、模型性能、未来不确定性、风险概率和因子贡献。",
         },
         {
             "用途": "论文写作辅助文本",
-            "文件": "docs/manuscript_text_snippets.md",
-            "状态": exists("docs/manuscript_text_snippets.md"),
+            "文件": "tables/manuscript_text_snippets_summary.json",
+            "状态": exists("tables/manuscript_text_snippets_summary.json"),
             "说明": "Methods、Results、Limitations 和 reviewer notes 写作素材。",
         },
         {
@@ -156,8 +126,8 @@ def main() -> None:
         },
         {
             "用途": "候选资格审计",
-            "文件": "docs/candidate_eligibility_audit_report.md",
-            "状态": exists("docs/candidate_eligibility_audit_report.md"),
+            "文件": "tables/candidate_eligibility_audit.csv",
+            "状态": exists("tables/candidate_eligibility_audit.csv"),
             "说明": "解释高 R2 探索上限为什么不能替代主结果。",
         },
         {
@@ -168,8 +138,8 @@ def main() -> None:
         },
         {
             "用途": "空间背景残差修复结果",
-            "文件": "docs/spatial_baseline_residual_fixed_report.md",
-            "状态": exists("docs/spatial_baseline_residual_fixed_report.md"),
+            "文件": "tables/spatial_baseline_residual_fixed_best_metrics.csv",
+            "状态": exists("tables/spatial_baseline_residual_fixed_best_metrics.csv"),
             "说明": "M3 模块的防泄漏背景场残差模型结果。",
         },
     ]
@@ -226,7 +196,7 @@ def main() -> None:
         f"- 防泄漏审计：`{leakage.get('status', 'unknown')}`，失败 {leakage.get('n_failed', 'NA')}。",
         f"- Markdown 引用检查：`{markdown.get('status', 'unknown')}`，缺失 {markdown.get('n_missing', 'NA')}。",
         f"- 主结果等于合规候选最优：{eligibility.get('n_publication_equals_best_eligible', 'NA')}/8。",
-        f"- 写作辅助文本：`{text_summary.get('output', 'docs/manuscript_text_snippets.md')}`。",
+        f"- 写作辅助摘要：`tables/manuscript_text_snippets_summary.json`。",
         "",
         "## 先看这 5 个文件",
         "",
@@ -243,7 +213,7 @@ def main() -> None:
         "## 推荐使用顺序",
         "",
         "1. 修改或确认 `run_project.py` 顶部参数区。",
-        "2. 按 `docs/reproduction.md` 安装环境并运行一键命令。",
+        "2. 按 `docs/复现.md` 安装环境并运行一键命令。",
         "3. 运行一键验收命令，确认命令返回成功：",
         "",
         "```bash",
@@ -256,9 +226,9 @@ def main() -> None:
         ".venv/bin/python scripts/build_reproducibility_snapshot.py",
         "```",
         "",
-        "5. 查看 `docs/submission_readiness_audit_report.md`，确认没有 `failed`；`warning` 项需要在论文限制或方法说明中披露。",
+        "5. 查看 `tables/submission_readiness_audit.csv`，确认没有 `failed`；`warning` 项需要在论文限制或方法说明中披露。",
         "6. 用 `docs/report.md` 作为完整技术报告入口。",
-        "7. 用 `docs/manuscript_tables_report.md`、`docs/manuscript_text_snippets.md` 和 `figures/manuscript_summary/manuscript_results_overview.png` 整理论文材料。",
+        "7. 用 `tables/manuscript_table*.csv`、`tables/manuscript_text_snippets_summary.json` 和 `figures/manuscript_summary/manuscript_results_overview.png` 整理论文材料。",
         "",
         "## 写作口径提醒",
         "",
@@ -269,11 +239,13 @@ def main() -> None:
         "",
     ]
 
-    out = DOCS_DIR / "project_delivery_guide.md"
+    legacy_docs = ROOT / "archive" / "legacy_docs"
+    legacy_docs.mkdir(parents=True, exist_ok=True)
+    out = legacy_docs / "project_delivery_guide.md"
     out.write_text("\n".join(lines), encoding="utf-8")
     summary = {
         "status": "ok",
-        "output": "docs/project_delivery_guide.md",
+        "output": "archive/legacy_docs/project_delivery_guide.md",
         "primary_entries": len(primary_entries),
         "paper_entries": len(paper_entries),
         "result_entries": len(result_entries),

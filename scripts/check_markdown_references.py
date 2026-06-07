@@ -32,7 +32,7 @@ CHECK_PREFIXES = (
 PLACEHOLDER_TOKENS = ("<", ">", "*", "...")
 URL_PREFIXES = ("http://", "https://", "file://", "mailto:")
 GENERATED_OUTPUTS = {
-    "docs/markdown_reference_check_report.md",
+    "archive/legacy_docs/markdown_reference_check_report.md",
     "tables/markdown_reference_check.csv",
     "tables/markdown_reference_check_summary.json",
 }
@@ -165,7 +165,9 @@ def main() -> None:
             "",
         ]
     )
-    (DOCS_DIR / "markdown_reference_check_report.md").write_text("\n".join(lines), encoding="utf-8")
+    legacy_docs = ROOT / "archive" / "legacy_docs"
+    legacy_docs.mkdir(parents=True, exist_ok=True)
+    (legacy_docs / "markdown_reference_check_report.md").write_text("\n".join(lines), encoding="utf-8")
     print(f"Wrote markdown reference check outputs: {summary['status']}")
     if summary["status"] != "ok":
         raise SystemExit(1)
