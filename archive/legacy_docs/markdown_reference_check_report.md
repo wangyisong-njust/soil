@@ -6,7 +6,7 @@
 
 - 状态：`ok`
 - 文档数：3
-- 本地引用数：417
+- 本地引用数：373
 - 缺失引用数：0
 
 ## 检查明细
@@ -181,74 +181,30 @@
 | README.md | tables/yearwise_validation_selected_publication_metrics.csv | inline_code | ok |
 | docs/report.md | data/processed/soil_heavy_metals.csv | inline_code | ok |
 | docs/report.md | docs/复现.md | inline_code | ok |
+| docs/report.md | figures/ | inline_code | ok |
 | docs/report.md | figures/feature_importance_summary/ | inline_code | ok |
 | docs/report.md | figures/feature_importance_summary/shap_group_contribution_heatmap.png | inline_code | ok |
 | docs/report.md | figures/feature_importance_summary/top5_shap_factors_by_target.png | inline_code | ok |
 | docs/report.md | figures/feature_importance_summary/top_shap_feature_heatmap.png | inline_code | ok |
 | docs/report.md | figures/future_exceedance_probability_maps/ | inline_code | ok |
-| docs/report.md | figures/manuscript_summary/manuscript_results_overview.pdf | inline_code | ok |
 | docs/report.md | figures/manuscript_summary/manuscript_results_overview.png | inline_code | ok |
-| docs/report.md | figures/publication_aligned_future/ | inline_code | ok |
-| docs/report.md | figures/recommended_predictions/ | inline_code | ok |
-| docs/report.md | figures/recommended_predictions/linear_upper_observed_predicted_grid.png | inline_code | ok |
-| docs/report.md | figures/recommended_predictions/nnls_exploration_observed_predicted_grid.png | inline_code | ok |
 | docs/report.md | figures/recommended_predictions/publication_grade_observed_predicted_grid.png | inline_code | ok |
-| docs/report.md | figures/validation_strategy/framework_module_ablation_mean_r2.png | inline_code | ok |
-| docs/report.md | figures/validation_strategy/framework_module_ablation_target_r2_heatmap.png | inline_code | ok |
-| docs/report.md | models/ | inline_code | ok |
-| docs/report.md | results/external_covariate_predictions.csv | inline_code | ok |
+| docs/report.md | results/ | inline_code | ok |
 | docs/report.md | results/future_exceedance_probability_2027_2035.csv | inline_code | ok |
-| docs/report.md | results/future_predictions_baseline_2027_2035_intervals.csv | inline_code | ok |
 | docs/report.md | results/future_predictions_publication_aligned_2027_2035.csv | inline_code | ok |
 | docs/report.md | results/future_predictions_publication_aligned_2027_2035_intervals.csv | inline_code | ok |
-| docs/report.md | results/recommended_prediction_grid_values.csv | inline_code | ok |
-| docs/report.md | results/unified_validation_predictions.csv | inline_code | ok |
 | docs/report.md | tables/ | inline_code | ok |
 | docs/report.md | tables/candidate_eligibility_audit.csv | inline_code | ok |
-| docs/report.md | tables/candidate_eligibility_rules.csv | inline_code | ok |
-| docs/report.md | tables/candidate_eligibility_source_summary.csv | inline_code | ok |
-| docs/report.md | tables/candidate_eligibility_summary.csv | inline_code | ok |
 | docs/report.md | tables/candidate_eligibility_summary.json | inline_code | ok |
-| docs/report.md | tables/data_cleaning_report.json | inline_code | ok |
-| docs/report.md | tables/delivery_artifact_manifest.csv | inline_code | ok |
-| docs/report.md | tables/delivery_audit_summary.json | inline_code | ok |
-| docs/report.md | tables/external_covariate_best_metrics.csv | inline_code | ok |
-| docs/report.md | tables/external_covariate_metrics.csv | inline_code | ok |
-| docs/report.md | tables/external_covariate_r2_delta.csv | inline_code | ok |
-| docs/report.md | tables/external_geo_terrain_best_metrics.csv | inline_code | ok |
-| docs/report.md | tables/feature_importance_group_summary.csv | inline_code | ok |
-| docs/report.md | tables/feature_importance_top_features.csv | inline_code | ok |
 | docs/report.md | tables/framework_module_ablation_m0_m6.csv | inline_code | ok |
 | docs/report.md | tables/framework_module_ablation_summary.csv | inline_code | ok |
-| docs/report.md | tables/future_exceedance_probability_map_summary.csv | inline_code | ok |
-| docs/report.md | tables/future_exceedance_probability_summary.csv | inline_code | ok |
-| docs/report.md | tables/future_prediction_interval_summary.csv | inline_code | ok |
-| docs/report.md | tables/geology_covariates_report.json | inline_code | ok |
-| docs/report.md | tables/input_validation_numeric_summary.csv | inline_code | ok |
-| docs/report.md | tables/input_validation_report.json | inline_code | ok |
 | docs/report.md | tables/leakage_publication_audit.csv | inline_code | ok |
 | docs/report.md | tables/leakage_publication_audit_summary.json | inline_code | ok |
-| docs/report.md | tables/manuscript_table1_variable_dictionary.csv | inline_code | ok |
-| docs/report.md | tables/manuscript_table1_variable_groups.csv | inline_code | ok |
-| docs/report.md | tables/manuscript_table2_publication_model_performance.csv | inline_code | ok |
-| docs/report.md | tables/manuscript_table3_future_prediction_uncertainty.csv | inline_code | ok |
-| docs/report.md | tables/manuscript_table4_future_exceedance_risk.csv | inline_code | ok |
-| docs/report.md | tables/manuscript_table5_feature_group_importance.csv | inline_code | ok |
-| docs/report.md | tables/manuscript_text_snippets_summary.json | inline_code | ok |
-| docs/report.md | tables/model_metrics.csv | inline_code | ok |
 | docs/report.md | tables/publication_aligned_future_prediction_summary.csv | inline_code | ok |
 | docs/report.md | tables/publication_grade_recommended_metrics.csv | inline_code | ok |
 | docs/report.md | tables/publication_model_cards.csv | inline_code | ok |
-| docs/report.md | tables/publication_model_cards.json | inline_code | ok |
-| docs/report.md | tables/reproducibility_snapshot_files.csv | inline_code | ok |
-| docs/report.md | tables/reproducibility_snapshot_packages.csv | inline_code | ok |
-| docs/report.md | tables/reproducibility_snapshot_summary.json | inline_code | ok |
-| docs/report.md | tables/terrain_covariates_report.json | inline_code | ok |
-| docs/report.md | tables/unified_validation_best_by_target.csv | inline_code | ok |
 | docs/report.md | tables/unified_validation_metrics.csv | inline_code | ok |
 | docs/report.md | tables/unified_validation_summary.csv | inline_code | ok |
-| docs/report.md | tables/unified_vs_framework_future.csv | inline_code | ok |
-| docs/report.md | tables/validation_strategy_summary.csv | inline_code | ok |
 | docs/复现.md | configs/soil_experiment.json | inline_code | ok |
 | docs/复现.md | data/external_cache/ | inline_code | ok |
 | docs/复现.md | data/external_raw/osm/china-latest-free.shp.zip | inline_code | ok |
